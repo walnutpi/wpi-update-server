@@ -214,6 +214,20 @@ Section: free
 Priority: optional
 Description: map device
 
+Package: patch-w2b
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 4
+Filename: main/patch-w2b_1.0.0_all.deb
+Size: 814
+MD5sum: 5bc857340536ae6c499d99a2ecd32c22
+SHA1: a287563d53fd93d1a10b329e5ca479ca0bee3c14
+SHA256: e15825a726400c572ae1e1e55241a81b41aec57a9b98ed65b2c6dc6fdebd3f60
+Section: free
+Priority: optional
+Description: the patch when update the os system
+
 Package: plymouth-themes-walnutpi
 Version: 1.0.0
 Architecture: all
