@@ -67,6 +67,21 @@ Section: free
 Priority: optional
 Description: config.txt for boot
 
+Package: emmc-burner
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 1624
+Depends: libfreetype6-dev
+Filename: arm64/emmc-burner_1.0.0_all.deb
+Size: 766330
+MD5sum: 7d24ac8341aface6952eb28b87227b7c
+SHA1: e2afa8b9ebf5a907783ad7a33aba2bca7bd7efce
+SHA256: 2c0833cc5884e8806b78a7d153ce1189eaf9e1d1ddfce89a8a8454dadfbf6f58
+Section: free
+Priority: optional
+Description: burn the image to emmc at boot
+
 Package: gpioc
 Version: 1.5.1
 Architecture: all
