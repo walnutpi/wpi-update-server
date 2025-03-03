@@ -1,24 +1,24 @@
 Architectures: all arm64
 Codename: bookworm
 Components: main
-Date: Mon, 03 Mar 2025 07:43:35 +0000
+Date: Mon, 03 Mar 2025 08:44:04 +0000
 Description: walnut pi wpi-update
 Label: Walnut Pi
 Origin: Walnut Pi
 Suite: stable
 MD5Sum:
- 073b68fa55600d36e0ea144dd23653bd              182 Release
+ 54b8dd18c4bffef98916947bdec7f82a              182 Release
  ffb029277977c86b7121076ef06e5c38            20028 main/binary-all/Packages
  e44aba523eab123994b0f05ddf1d0415             7223 main/binary-arm64/Packages
 SHA1:
- cdbb0d91605eda8bce5d7888b5b9e3b9e25ce3c8              182 Release
+ 75bc5d10d78293b57cf16ab8d3ec4c33e2268398              182 Release
  8cb977e815afbc4356539ba05104f62458f00541            20028 main/binary-all/Packages
  2bdad6a7214132a27e66622c8af5e632144a4ed0             7223 main/binary-arm64/Packages
 SHA256:
- 43272313cd1653fc0f31b029d7303e2c5f4f0f37ae4ec31fbdcd81f6fc072b62              182 Release
+ fa0b49653b0ba8cc7930e375af5df5c8382350063476011928dd6ff5aee9d4ee              182 Release
  0fd7c84ff9f4a22f7a32fcaf0f8f0fe702eb3078cc3bd2a1c1907ea31255ed29            20028 main/binary-all/Packages
  106f8dadee5069040390be91e4c7436fdb7a993b32fb09a31e8cf3faf82f99c2             7223 main/binary-arm64/Packages
 SHA512:
- c996c13d33b02d8a14d0d2fbe2d97c9572d0d054d0ebfea4abfd1f954b8f0c36d9aba9344e6802bf00d899ff8e77e8c4d3aa1e5f33ea329604af95e075b27c22              182 Release
+ 19ef7d0b420b23a7a4b526b5bd9cea32a9e4ff00de307b77daa3bb87943badcfeef40647fbd4fc95bca6538042bbad7649fc74823b9708cc07a2f14b79a087f9              182 Release
  4b3614780ebd0aec6031b9890bb810b046be2c318a7e33bf952abd951a998f6f2721dba60ed3b807b892d7a5f72f5561ad77919bf8f1280cfe2177dadf10c8ea            20028 main/binary-all/Packages
  17e66986a74dc9055119132dc4b2f6cd95824e4ba8110e0d732f702553b4eb979de27e0ddffe94b00dbc92ad070172ee934ab04c3b7582f0112b42b5c4ee428e             7223 main/binary-arm64/Packages
