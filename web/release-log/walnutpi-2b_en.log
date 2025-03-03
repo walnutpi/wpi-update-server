@@ -1,2 +1,8 @@
+[2025-2-28] - 1.1.0
+    - Fix : the Ethernet port indicator
+    - Fix : the error when connect to 100Mbps network
+    - Fix : DESKTOP, can not set the screen resolution
+    - New : add support for usb microphone
+    
 [2025-2-11] - 1.0.0
     - The first version

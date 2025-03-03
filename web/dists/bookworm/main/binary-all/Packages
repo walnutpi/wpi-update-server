@@ -396,6 +396,20 @@ Section: free
 Priority: optional
 Description: service, run on walnutpi-1b board. set the mmc2 pins as off if mmc2 is disable
 
+Package: service-w2b-dis-eth-led
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 36
+Filename: main/service-w2b-dis-eth-led_1.0.0_all.deb
+Size: 1294
+MD5sum: e78f03ad6cfc4c2e256e4bf093d3e7e0
+SHA1: c24275fef67d146a9cf58357a0c9cf75a356aea7
+SHA256: f348a04c024bedaf88a0c0a052e9da0b4f55387acea7fe1a80967fb436958b8c
+Section: free
+Priority: optional
+Description: service, Turn off the led when the cable is not inserted
+
 Package: set-device
 Version: 1.1.0
 Architecture: all
@@ -454,15 +468,15 @@ Priority: optional
 Description: Configuration language
 
 Package: set-lcd
-Version: 1.1.2
+Version: 1.1.3
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 992
-Filename: main/set-lcd_1.1.2_all.deb
-Size: 215142
-MD5sum: 040e4485bb6d240efb144b344dd047ef
-SHA1: 8733e0d2c5b5abab33d1013598b45ad63f4d92b6
-SHA256: 3bf8a212380a9d753eb05500f30e6b002562452dca7fecc4c3627d130d207a69
+Installed-Size: 1056
+Filename: main/set-lcd_1.1.3_all.deb
+Size: 218618
+MD5sum: e1f146effa53c3f12917a4c96cb51a6e
+SHA1: 2e87fe9126d9c7f74ce04495173367a10e9b761b
+SHA256: 21903954ea181fac1b0c08186678a202c0e7522bf15f1dacdce669579c60e05e
 Section: free
 Priority: optional
 Description: Configuration lcd

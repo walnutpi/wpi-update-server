@@ -39,6 +39,34 @@ Description: Bluetooth tools and daemons
  BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
  project distributed under GNU General Public License (GPL).
 
+Package: bootbin-WalnutPi-2b-main
+Version: 1.1
+Architecture: arm64
+Maintainer: walnutpi-build
+Installed-Size: 312
+Filename: arm64/bootbin-WalnutPi-2b-main_1.1_arm64.deb
+Size: 131294
+MD5sum: d4f995522e576e203786b7a220e227f4
+SHA1: 6b9d1782500b6256bef4014d65b4c300d5688082
+SHA256: 261ede3c6d7537bd7a93130f6c116cb50919ef1080f4fe64be84bb4fe33b679f
+Section: free
+Priority: optional
+Description: the boot bin
+
+Package: configtxt-WalnutPi-2b-main
+Version: 1.1
+Architecture: arm64
+Maintainer: walnutpi-build
+Installed-Size: 16
+Filename: arm64/configtxt-WalnutPi-2b-main_1.1_arm64.deb
+Size: 1226
+MD5sum: 615ca65be5565779c463b9ee7d645aec
+SHA1: e608ae132d539df01cafd14d00aad59065a2cac1
+SHA256: 83395999d3afaf9bd95cce704321dbee9ad213fed427b998912049a9b148bb1c
+Section: free
+Priority: optional
+Description: config.txt for boot
+
 Package: gpioc
 Version: 1.5.1
 Architecture: all
@@ -67,6 +95,62 @@ SHA256: bbc6ac6b30a750f206787702197d4fbf424cafbfabb411fe504877c72d08bcac
 Section: free
 Priority: optional
 Description: hcitools is used to control bluetooth
+
+Package: kernel-dtb-WalnutPi-2b-5.15.147
+Version: 1.5.0
+Architecture: arm64
+Maintainer: walnutpi-build
+Installed-Size: 256
+Filename: arm64/kernel-dtb-WalnutPi-2b-5.15.147_1.5.0_arm64.deb
+Size: 31330
+MD5sum: 1b434bc544602ba0f84f08e0b49420f2
+SHA1: 862d8d9ce2ffbb256c231ea85ebd805aae007bf5
+SHA256: 0e9035a12f6ab956c9e9eabeb563f805d3aa2f3dc8302f10379fef4215ac10cb
+Section: free
+Priority: optional
+Description: linux kernel dtb files
+
+Package: kernel-headers-WalnutPi-2b-5.15.147
+Version: 1.5.0
+Architecture: arm64
+Maintainer: walnutpi-build
+Installed-Size: 120532
+Filename: arm64/kernel-headers-WalnutPi-2b-5.15.147_1.5.0_arm64.deb
+Size: 11752422
+MD5sum: da3b1ecc0255623b8c0f6841c9a06b4b
+SHA1: f8e03d2ca5fd7d5a7083bbcdb3052f1dce491e04
+SHA256: e2061abe3aa2f0d4d0202c903d45da2255b43b8985b6f5e92b4885859885b306
+Section: free
+Priority: optional
+Description: linux kernel header files
+
+Package: kernel-image-WalnutPi-2b-5.15.147
+Version: 1.5.0
+Architecture: arm64
+Maintainer: walnutpi-build
+Installed-Size: 29132
+Filename: arm64/kernel-image-WalnutPi-2b-5.15.147_1.5.0_arm64.deb
+Size: 10115158
+MD5sum: 449eb4fcd01dd571b88f9be49b8bf018
+SHA1: bce00b395b34f4277e2e10b4417a9902e4ad4f54
+SHA256: 64b985fb4560b62847c20f8bd8aca9d71e4463eabc228f50e208e32bae0054e4
+Section: free
+Priority: optional
+Description: linux kernel image file
+
+Package: kernel-modules-WalnutPi-2b-5.15.147
+Version: 1.5.0
+Architecture: arm64
+Maintainer: walnutpi-build
+Installed-Size: 212656
+Filename: arm64/kernel-modules-WalnutPi-2b-5.15.147_1.5.0_arm64.deb
+Size: 35824456
+MD5sum: b7418595106cfa8966107f49ba4bb437
+SHA1: bf523bb9814ebb53b01e1250a517860a37c6586d
+SHA256: 387b609cc59db6a668cf07a5bb6500a4e4395b526e92548d3aa997402a8a09d5
+Section: free
+Priority: optional
+Description: linux kernel modules
 
 Package: python3-sudo
 Version: 1.0.0
