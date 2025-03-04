@@ -425,15 +425,15 @@ Priority: optional
 Description: service, Turn off the led when the cable is not inserted
 
 Package: set-device
-Version: 1.1.0
+Version: 1.1.1
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
 Installed-Size: 28
-Filename: main/set-device_1.1.0_all.deb
-Size: 2394
-MD5sum: e74487560e622cca8a133890fa7b512e
-SHA1: 54b27c6642a0360346c893d8157af04fb081dc07
-SHA256: 4a58ad2cec773acfb1badb584a45755566c34632c4f1fbd9b041ea92398d5425
+Filename: main/set-device_1.1.1_all.deb
+Size: 2220
+MD5sum: 23ccaff15d23b64bc99904555a34322c
+SHA1: bcd479a816cfc235decd337580109792758da4b7
+SHA256: f1bcffd2d349689c46007039f3fc7228293cde9d0c17dcf96b99012faa2cd5d0
 Section: free
 Priority: optional
 Description: Modifying the /boot/config.txt file about overlays

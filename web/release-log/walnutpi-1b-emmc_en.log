@@ -1,3 +1,9 @@
+[2025-3-4] - 2.5.0
+    - NEW : map-device
+    - NEW : command : set-emmc to_disk , Format the eMMC as a normal storage
+    - NEW : the function <Run all scripts in the /boot/start path>,Now the output of the script will be a log file save to the /boot/start directory
+
+
 [2024-7-26] - 2.4.1
     - FIX : Change the ssh command-line character encoding to UTF-8
 

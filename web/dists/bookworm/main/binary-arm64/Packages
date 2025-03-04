@@ -45,10 +45,10 @@ Architecture: arm64
 Maintainer: walnutpi-build
 Installed-Size: 312
 Filename: arm64/bootbin-WalnutPi-2b-main_1.1_arm64.deb
-Size: 131294
-MD5sum: d4f995522e576e203786b7a220e227f4
-SHA1: 6b9d1782500b6256bef4014d65b4c300d5688082
-SHA256: 261ede3c6d7537bd7a93130f6c116cb50919ef1080f4fe64be84bb4fe33b679f
+Size: 131024
+MD5sum: c019af176cfed54199dd5379eb40904e
+SHA1: cb74e37cda9eb3289b045804b87d809ad12281e2
+SHA256: c00f57777bd55b71d57f9172e7de6e5eb10beee90524914ec7df322033471c2a
 Section: free
 Priority: optional
 Description: the boot bin
@@ -206,16 +206,16 @@ Description: VNC® Viewer
  is available.
 
 Package: walnutpi-lib
-Version: 1.0.3
+Version: 1.1.0
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 9076
+Installed-Size: 9812
 Depends: make, gcc
-Filename: arm64/walnutpi-lib_1.0.3_all.deb
-Size: 4065968
-MD5sum: 47d5055dd70b2b001c3a1f24b87f4b35
-SHA1: b06941bb8c6aafe9709d8ca64f17421ce4c062a4
-SHA256: 4d8b6c1e930765764e374a2037c57b6682f56bb2851fcf1d2ee444775f4287b7
+Filename: arm64/walnutpi-lib_1.1.0_all.deb
+Size: 4237242
+MD5sum: 424c3168dec1dfa0faaeb6f4b85b53e2
+SHA1: c276040a94acb6179d97a300320c1f70be03d8b8
+SHA256: 314b4338a6b3b0948d5587185bdb5cbbed2aa11b8ceb06b02487badc1962ca94
 Section: free
 Priority: optional
 Description: walnutpi support some lib
