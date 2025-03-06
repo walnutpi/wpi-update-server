@@ -1,3 +1,6 @@
+[2025-3-6] - 2.5.1
+    - FIX : set-lcd : 3.5' lcd enable error
+
 [2025-3-4] - 2.5.0
     - NEW : map-device
     - NEW : the function <Run all scripts in the /boot/start path>,Now the output of the script will be a log file save to the /boot/start directory
