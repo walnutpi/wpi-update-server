@@ -1,3 +1,9 @@
+[2025-3-19] - 1.2.0
+    - New : add support for a 800x480 mipi screen
+    - New : add support for CH341 CP210X driver
+    - New : add support for tun
+    - New : enable the screen in config.txt
+
 [2025-3-3] - 1.1.0
     - Fix : the Ethernet port indicator
     - Fix : the error when connect to 100Mbps network

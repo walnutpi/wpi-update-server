@@ -482,15 +482,15 @@ Priority: optional
 Description: Configuration language
 
 Package: set-lcd
-Version: 1.1.4
+Version: 1.2.0
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 1176
-Filename: main/set-lcd_1.1.4_all.deb
-Size: 234802
-MD5sum: 7c65e6befc35723759bd4907dfd7c2f3
-SHA1: 6cae44953b9daf6c0a84921b5f82d478bffb36e1
-SHA256: b3496735c5e631a2544bd41f8861d9ab74a46e6800a043a71d98892f07854784
+Installed-Size: 1688
+Filename: main/set-lcd_1.2.0_all.deb
+Size: 267530
+MD5sum: 340d9d5aeb80ae9f29512f76d832fbec
+SHA1: 7c9c6751ffd46f73d2c082f2fd724561166245a1
+SHA256: 4f01f832eb8fc4c3d8d96b2b9b5b502127bc09702f10c5aa1ab5b520c8a749b5
 Section: free
 Priority: optional
 Description: Configuration lcd

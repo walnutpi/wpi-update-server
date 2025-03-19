@@ -40,29 +40,29 @@ Description: Bluetooth tools and daemons
  project distributed under GNU General Public License (GPL).
 
 Package: bootbin-WalnutPi-2b-main
-Version: 1.1
+Version: 1.2
 Architecture: arm64
 Maintainer: walnutpi-build
 Installed-Size: 312
-Filename: arm64/bootbin-WalnutPi-2b-main_1.1_arm64.deb
-Size: 131024
-MD5sum: c019af176cfed54199dd5379eb40904e
-SHA1: cb74e37cda9eb3289b045804b87d809ad12281e2
-SHA256: c00f57777bd55b71d57f9172e7de6e5eb10beee90524914ec7df322033471c2a
+Filename: arm64/bootbin-WalnutPi-2b-main_1.2_arm64.deb
+Size: 131026
+MD5sum: d59103bfcdc9aa182b4c93f592a4dc6b
+SHA1: bbca8bd361aa5b3ba1836a768513861a50be074f
+SHA256: c5fd76323607ae3994580f4f4a8ecee8de53cb3068631f9f85174f6e1ebc64ef
 Section: free
 Priority: optional
 Description: the boot bin
 
 Package: configtxt-WalnutPi-2b-main
-Version: 1.1
+Version: 1.2
 Architecture: arm64
 Maintainer: walnutpi-build
 Installed-Size: 16
-Filename: arm64/configtxt-WalnutPi-2b-main_1.1_arm64.deb
-Size: 1226
-MD5sum: 615ca65be5565779c463b9ee7d645aec
-SHA1: e608ae132d539df01cafd14d00aad59065a2cac1
-SHA256: 83395999d3afaf9bd95cce704321dbee9ad213fed427b998912049a9b148bb1c
+Filename: arm64/configtxt-WalnutPi-2b-main_1.2_arm64.deb
+Size: 1238
+MD5sum: be21444d10308a1a1482e1da7bfe045d
+SHA1: 85bc6fcbc6e50e4dcb32e6463e91f21bdff1b4e8
+SHA256: 9c291a95f7b40a74497f1d33fc01d2e15bcc382ea5d55f729207253faea3a955
 Section: free
 Priority: optional
 Description: config.txt for boot
@@ -112,15 +112,15 @@ Priority: optional
 Description: hcitools is used to control bluetooth
 
 Package: kernel-dtb-WalnutPi-2b-5.15.147
-Version: 1.5.0
+Version: 1.9.0
 Architecture: arm64
 Maintainer: walnutpi-build
 Installed-Size: 256
-Filename: arm64/kernel-dtb-WalnutPi-2b-5.15.147_1.5.0_arm64.deb
-Size: 31330
-MD5sum: 1b434bc544602ba0f84f08e0b49420f2
-SHA1: 862d8d9ce2ffbb256c231ea85ebd805aae007bf5
-SHA256: 0e9035a12f6ab956c9e9eabeb563f805d3aa2f3dc8302f10379fef4215ac10cb
+Filename: arm64/kernel-dtb-WalnutPi-2b-5.15.147_1.9.0_arm64.deb
+Size: 31496
+MD5sum: ac21f4e2e0d7003fe092640f14eb491b
+SHA1: c68d6a3f65c728e1e59cda9f678ef9c7745574bb
+SHA256: 1fb568c3a601b98a816146298263e033b1f54f6f87ed352f89dd58f4e4c8fe48
 Section: free
 Priority: optional
 Description: linux kernel dtb files
@@ -140,29 +140,29 @@ Priority: optional
 Description: linux kernel header files
 
 Package: kernel-image-WalnutPi-2b-5.15.147
-Version: 1.5.0
+Version: 1.9.0
 Architecture: arm64
 Maintainer: walnutpi-build
-Installed-Size: 29132
-Filename: arm64/kernel-image-WalnutPi-2b-5.15.147_1.5.0_arm64.deb
-Size: 10115158
-MD5sum: 449eb4fcd01dd571b88f9be49b8bf018
-SHA1: bce00b395b34f4277e2e10b4417a9902e4ad4f54
-SHA256: 64b985fb4560b62847c20f8bd8aca9d71e4463eabc228f50e208e32bae0054e4
+Installed-Size: 29108
+Filename: arm64/kernel-image-WalnutPi-2b-5.15.147_1.9.0_arm64.deb
+Size: 10099752
+MD5sum: 96b923e3eef5d5fb1a7f09db6f88001c
+SHA1: 13c069933c304cdb3edbcabc9adb3ab2c71ec95a
+SHA256: 5ef8eabe50e6f55114dacd86c880161c83570201e1ff19486aa4dbb8741d148a
 Section: free
 Priority: optional
 Description: linux kernel image file
 
 Package: kernel-modules-WalnutPi-2b-5.15.147
-Version: 1.5.0
+Version: 1.9.0
 Architecture: arm64
 Maintainer: walnutpi-build
-Installed-Size: 212656
-Filename: arm64/kernel-modules-WalnutPi-2b-5.15.147_1.5.0_arm64.deb
-Size: 35824456
-MD5sum: b7418595106cfa8966107f49ba4bb437
-SHA1: bf523bb9814ebb53b01e1250a517860a37c6586d
-SHA256: 387b609cc59db6a668cf07a5bb6500a4e4395b526e92548d3aa997402a8a09d5
+Installed-Size: 216484
+Filename: arm64/kernel-modules-WalnutPi-2b-5.15.147_1.9.0_arm64.deb
+Size: 36578096
+MD5sum: 22c1b0f2e86bab49124a008de771cc72
+SHA1: 608b2d2dab27c3d897e2c212b998b4cc488912b9
+SHA256: 278b651877b23354519b4bd27455fcf81ec6fab8b23024c6afc2a074b2d48218
 Section: free
 Priority: optional
 Description: linux kernel modules
