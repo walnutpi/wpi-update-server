@@ -482,15 +482,15 @@ Priority: optional
 Description: Configuration language
 
 Package: set-lcd
-Version: 1.2.0
+Version: 1.3.0
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 1688
-Filename: main/set-lcd_1.2.0_all.deb
-Size: 267530
-MD5sum: 340d9d5aeb80ae9f29512f76d832fbec
-SHA1: 7c9c6751ffd46f73d2c082f2fd724561166245a1
-SHA256: 4f01f832eb8fc4c3d8d96b2b9b5b502127bc09702f10c5aa1ab5b520c8a749b5
+Installed-Size: 2208
+Filename: main/set-lcd_1.3.0_all.deb
+Size: 370848
+MD5sum: 1fc884edc8bf6b36d102e65e255b8a94
+SHA1: 407e90ecdbab269baf2e8621a6679cda457e9193
+SHA256: 13ac78d799f1ee7883fab1d9c16fdc341c6e73614ba23e751ad70b5df8599596
 Section: free
 Priority: optional
 Description: Configuration lcd
@@ -633,16 +633,16 @@ Priority: optional
 Description: Modifying the host name
 
 Package: wpi-lightdm
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 32
+Installed-Size: 44
 Depends: wpi-user,lightdm
-Filename: main/wpi-lightdm_1.0.0_all.deb
-Size: 1118
-MD5sum: b0442c88c5f88681c7c9553fcab79aa7
-SHA1: 426bd886559ac53f7060ac3729349e63ff34e629
-SHA256: 0f66a4fec8bb428761a333efe2e07c39cf1468f0ce56cf394019c013d968326e
+Filename: main/wpi-lightdm_1.0.1_all.deb
+Size: 1216
+MD5sum: 850b2426fff97a155f5126f25b0f532f
+SHA1: 4d5335cdd883713c7d41874ddabaca24a21bf96a
+SHA256: e51310f6feafb9e4dfdc45e50b246c53698852172b1f1976b6ad08a176798da5
 Section: free
 Priority: optional
 Description: setting the lightdm autologin as pi.run ternimal in server
