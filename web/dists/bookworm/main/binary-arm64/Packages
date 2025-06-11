@@ -140,15 +140,15 @@ Priority: optional
 Description: linux kernel header files
 
 Package: kernel-image-WalnutPi-2b-5.15.147
-Version: 1.10.0
+Version: 1.16.0
 Architecture: arm64
 Maintainer: walnutpi-build
 Installed-Size: 29108
-Filename: arm64/kernel-image-WalnutPi-2b-5.15.147_1.10.0_arm64.deb
-Size: 10099536
-MD5sum: aeed6fa7f459c7bc622edefc79217f38
-SHA1: 3a81ec079669cdaf30872cb2c47757503aef1050
-SHA256: ee873963c8ead0038fa15a0cacd9ea20560055bb01813d86f7813c164d2c54f6
+Filename: arm64/kernel-image-WalnutPi-2b-5.15.147_1.16.0_arm64.deb
+Size: 10098942
+MD5sum: 963937334b7a1efb3f05d29e0f010600
+SHA1: 45f70eafef014bf303defe36e0bdff17bb52f914
+SHA256: a1f74e4f9d1e877d9ccb80517c4561c747a7bf3684ad503581c640c7a880eee6
 Section: free
 Priority: optional
 Description: linux kernel image file
