@@ -221,31 +221,31 @@ Priority: optional
 Description: walnutpi support some lib
 
 Package: walnutpi.lib
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 232
+Installed-Size: 228
 Depends: walnutpi.npu
-Filename: arm64/walnutpi.lib_1.0.0_all.deb
-Size: 17116
-MD5sum: 1cf4c0943852d657f7423e644dfad028
-SHA1: c54e80a5215aab5e721301a0d0c126cb8584aa9b
-SHA256: 0cd61164ada13a9a4660f7aaddc173798115ca5632091a6ebc4521ff6785a004
+Filename: arm64/walnutpi.lib_1.0.1_all.deb
+Size: 17052
+MD5sum: 18c048e256067a8aee3661e83fac0b26
+SHA1: b80d7d80e5c6d5ab61b127deb41a62e9ccea1d02
+SHA256: b4ed1574d1d39650934511ff53e2ca4515ccf2cc2a10b699a126d71e007250f9
 Section: free
 Priority: optional
 Description: a python lib to import all lib about walnutpi
 
 Package: walnutpi.npu
-Version: 1.1.0
+Version: 1.1.1
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 696
+Installed-Size: 708
 Depends: walnutpi.npu
-Filename: arm64/walnutpi.npu_1.1.0_all.deb
-Size: 235398
-MD5sum: a31b067ef592d02e6f736650dd637413
-SHA1: 550535cbbdd605fb1f283614e0d74c6adddf264d
-SHA256: 656148b985c55b2f0ecdc111ba105dc5476bdd76a07009303f6d09cdd49499e8
+Filename: arm64/walnutpi.npu_1.1.1_all.deb
+Size: 236752
+MD5sum: c579d3c3603957c09d1139b26c553914
+SHA1: a7a0e5553d1746373263c10df868cc2d8b3b6e3c
+SHA256: a6fcffee0c08ff59c52d20c14b2e0af3e3f6dfc8225b2365638c690664235e8d
 Section: free
 Priority: optional
 Description: a python lib to control npu
