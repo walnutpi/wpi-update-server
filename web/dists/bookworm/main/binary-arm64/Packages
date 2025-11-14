@@ -2,13 +2,13 @@ Package: blinka
 Version: 0.2
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 5804
+Installed-Size: 5448
 Depends: make, gcc
 Filename: arm64/blinka_0.2_all.deb
-Size: 2624332
-MD5sum: e61ce9bbb67ca9c167c3948cee291707
-SHA1: 2da567e2e134bdcc6cbd3d2408df009b79796144
-SHA256: 1875d7b4f98a7c6d8ddda8521284f8d1ba34c6b527df93e9d1ef5d6faf282a41
+Size: 2776152
+MD5sum: 8721702421b9e736a812dac7258ee6ef
+SHA1: 561659e6199f4c5f0e56cfaf6d580f2c129343d1
+SHA256: c74d6af6a87c13df0e0894a30436ae3c57e0ea6a24ff9cb433e4a02e212fc03c
 Section: free
 Priority: optional
 Description: control the gpio with python
@@ -17,7 +17,7 @@ Package: bluez
 Version: 666.6.66-1+deb12u1
 Architecture: arm64
 Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
-Installed-Size: 3484
+Installed-Size: 3164
 Pre-Depends: init-system-helpers (>= 1.54~)
 Depends: libasound2 (>= 1.0.17), libc6 (>= 2.34), libdbus-1-3 (>= 1.9.14), libdw1 (>= 0.127), libglib2.0-0 (>= 2.31.8), libreadline8 (>= 6.0), libudev1 (>= 196), kmod, udev, lsb-base, default-dbus-system-bus | dbus-system-bus
 Suggests: pulseaudio-module-bluetooth
@@ -25,10 +25,10 @@ Conflicts: bluez-audio (<= 3.36-3), bluez-utils (<= 3.36-3)
 Breaks: udev (<< 170-1)
 Replaces: bluez-audio (<= 3.36-3), bluez-input, bluez-network, bluez-serial, bluez-utils (<= 3.36-3), udev (<< 170-1)
 Filename: arm64/bluez_666.6.66-1+deb12u1_arm64.deb
-Size: 894618
-MD5sum: 68a22885d695ef751b2ff8299c8d0eeb
-SHA1: fcc0ac882d4751bf5ef06d70423d45bf38ef0fc8
-SHA256: d85ecd4b7549e20712eae2fa2c6d695b71c5c7fbc17efa385049b9c0d941caa7
+Size: 1119478
+MD5sum: 9186783a57b78ceeb46e6eaec202f8b4
+SHA1: c6468df5259f8dfefc7617922f6651c235065678
+SHA256: 37042f2d4b2f418a5ff58604ad9d0538dd21f9b10e6baaaf674122754a6b6909
 Section: admin
 Priority: optional
 Multi-Arch: foreign
@@ -71,13 +71,13 @@ Package: emmc-burner
 Version: 1.0.0
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 1624
+Installed-Size: 1416
 Depends: libfreetype6-dev
 Filename: arm64/emmc-burner_1.0.0_all.deb
-Size: 766330
-MD5sum: 7d24ac8341aface6952eb28b87227b7c
-SHA1: e2afa8b9ebf5a907783ad7a33aba2bca7bd7efce
-SHA256: 2c0833cc5884e8806b78a7d153ce1189eaf9e1d1ddfce89a8a8454dadfbf6f58
+Size: 801658
+MD5sum: 7cd0a8cd3a2542c37e41d8f897b808e9
+SHA1: 2c83585bf24bce19bbf1f5c97e6db07d281336c2
+SHA256: 26c4ba7cd50b7f1fe8527b416bce4313c38c92ea63bdcb8fd17d09cb4d6c2c88
 Section: free
 Priority: optional
 Description: burn the image to emmc at boot
@@ -86,13 +86,13 @@ Package: gpioc
 Version: 1.5.1
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 1856
+Installed-Size: 1156
 Depends: make, gcc
 Filename: arm64/gpioc_1.5.1_all.deb
-Size: 631386
-MD5sum: 05189ac95d7f8974332370a52d7b7ef0
-SHA1: ef264ce8e82314e448bb0c5a6b06ab95edd5a737
-SHA256: aa3769ecf48c04bced4d6cabf8ca921c968875eeacf4176e545ad411cf5d25e8
+Size: 568596
+MD5sum: 9af09ff5cfef1dd5419d4ef24bc92925
+SHA1: 13c47d6d63e3d890b8ef097eee829d94e81a8430
+SHA256: a01d1f3d5d9c28a44d6bbd09cfed768607f720bd9952c5ba12d04a35790ee23b
 Section: free
 Priority: optional
 Description: control the gpio
@@ -101,12 +101,12 @@ Package: hcitools
 Version: 1.0.1
 Architecture: arm64
 Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 2316
+Installed-Size: 2268
 Filename: arm64/hcitools_1.0.1_arm64.deb
-Size: 881448
-MD5sum: b2997e3f7fbd3deb4e8f815787c8f72b
-SHA1: f17c932a8d758dd1863adea143aff99fd6858a18
-SHA256: bbc6ac6b30a750f206787702197d4fbf424cafbfabb411fe504877c72d08bcac
+Size: 935162
+MD5sum: 44975e307c2d8ad095587fd591dd55a1
+SHA1: 61104a3e46d90b6623708dfdd1dc629c418cc192
+SHA256: 4099fe770d107282dc4651f72925a6723be5c335b1b09e72b26f5628227a26fd
 Section: free
 Priority: optional
 Description: hcitools is used to control bluetooth
@@ -173,10 +173,10 @@ Architecture: arm64
 Maintainer: sc-bin <3335447573@qq.com>
 Installed-Size: 92
 Filename: arm64/python3-sudo_1.0.0_arm64.deb
-Size: 3698
-MD5sum: 4826f0627758d074910d36c81d314807
-SHA1: 56267f7c90536098db574666d35e66718649c1c5
-SHA256: 8eb62e6cec98831c36bff648041c2a73f40216673397a3f5263573806dda3ed3
+Size: 6656
+MD5sum: 3cc8f246eeddd3fb8cdc43610e28e5db
+SHA1: ef99bb5e089080194ef783fa1ce63692f1add155
+SHA256: 4fb31f1ae3a954b3cfeb04e84dcf09dfc87e4cbffdb587065cf793f91468fc20
 Section: free
 Priority: optional
 Description: run python3 as sudo
@@ -209,13 +209,13 @@ Package: walnutpi-lib
 Version: 1.1.0
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 9812
+Installed-Size: 9156
 Depends: make, gcc
 Filename: arm64/walnutpi-lib_1.1.0_all.deb
-Size: 4237242
-MD5sum: 424c3168dec1dfa0faaeb6f4b85b53e2
-SHA1: c276040a94acb6179d97a300320c1f70be03d8b8
-SHA256: 314b4338a6b3b0948d5587185bdb5cbbed2aa11b8ceb06b02487badc1962ca94
+Size: 4462016
+MD5sum: 1307e6fcb16b49bbf4744c7e999e1ce8
+SHA1: f29c55b60c94cfa875df07f7efe386337a075919
+SHA256: 40f7efc1690e86514055c688eb48360910a0042670e455a977df15a771b86deb
 Section: free
 Priority: optional
 Description: walnutpi support some lib
@@ -227,10 +227,10 @@ Maintainer: sc-bin <3335447573@qq.com>
 Installed-Size: 228
 Depends: walnutpi.npu
 Filename: arm64/walnutpi.lib_1.0.1_all.deb
-Size: 17052
-MD5sum: 18c048e256067a8aee3661e83fac0b26
-SHA1: b80d7d80e5c6d5ab61b127deb41a62e9ccea1d02
-SHA256: b4ed1574d1d39650934511ff53e2ca4515ccf2cc2a10b699a126d71e007250f9
+Size: 18066
+MD5sum: 65c3e933e23cd33a7ad1280eb664f18b
+SHA1: 3ee2905937b70d785f24f164969c87309e2db535
+SHA256: 1047fd71ac408b7273b50514bc566fff96bb3dff810778abcd77b3d48157da67
 Section: free
 Priority: optional
 Description: a python lib to import all lib about walnutpi
@@ -242,10 +242,10 @@ Maintainer: sc-bin <3335447573@qq.com>
 Installed-Size: 708
 Depends: walnutpi.npu
 Filename: arm64/walnutpi.npu_1.1.1_all.deb
-Size: 236752
-MD5sum: c579d3c3603957c09d1139b26c553914
-SHA1: a7a0e5553d1746373263c10df868cc2d8b3b6e3c
-SHA256: a6fcffee0c08ff59c52d20c14b2e0af3e3f6dfc8225b2365638c690664235e8d
+Size: 250656
+MD5sum: acf0f5f268b7f75daaed728101fc4df7
+SHA1: 7d95461c9e09117d02809d99002701d72fbbbb25
+SHA256: 42f2d6d25d207dc8c939b59d526208193d19813877a651763df2f16bc817c17f
 Section: free
 Priority: optional
 Description: a python lib to control npu

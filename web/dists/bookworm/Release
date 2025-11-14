@@ -1,24 +1,24 @@
 Architectures: all arm64
 Codename: bookworm
 Components: main
-Date: Thu, 18 Sep 2025 01:10:41 +0000
+Date: Fri, 14 Nov 2025 08:02:17 +0000
 Description: walnut pi wpi-update
 Label: Walnut Pi
 Origin: Walnut Pi
 Suite: stable
 MD5Sum:
- e204530da5f94174b818e4988433eda1              182 Release
- fc9dd15b90907592fa038b144fa72882            20028 main/binary-all/Packages
- 7b2e0d8dd058de85ba05229199b19e4c             8098 main/binary-arm64/Packages
+ bb001194498834e61f21c20bd471c653              182 Release
+ bfab834075c8a222ea52c359e1c78676            20028 main/binary-all/Packages
+ bd82a93a3e59f5281f4b27c6d8d44edb             8099 main/binary-arm64/Packages
 SHA1:
- 6027b3d1f38cd4c606496dd8f2d521bafbf0ced7              182 Release
- e9feccb0d5088e766f1439a06194640b79b254cd            20028 main/binary-all/Packages
- dac58029523647aab3b3a34c68909ad73c4544e3             8098 main/binary-arm64/Packages
+ 7bb7bdde3f67d1c72a101d871702f41fd93cd651              182 Release
+ 1b07ea1b3aa403712c974ef90f9aa2d39b7aeb69            20028 main/binary-all/Packages
+ c23719b79c1d3f214ac581018ab236c026a2967e             8099 main/binary-arm64/Packages
 SHA256:
- 0131240745608fe173d94de743dcfec7ce4387452ee99d92567b920838e695a9              182 Release
- fed1be8c0f5e7eb8bf92b724c47180d85480afd9c96322bda5a404e858288af5            20028 main/binary-all/Packages
- 240f264aa7e12728d72e533ebae051ce8de425987ac71f20fb8a692ee865b604             8098 main/binary-arm64/Packages
+ 34bb2465e41361ffb743b0bed3613b3c16fa4b7a3cbe6ae4e550cbd69db047ff              182 Release
+ 9206dafc62d1904ccaf2b53b347d66b70c44c6fbe3e2f635192820d43a4a8333            20028 main/binary-all/Packages
+ 4e1af84fb8ee83f5dba2c81bf0b23966aee2f598f983f1283a61e4d52c229a48             8099 main/binary-arm64/Packages
 SHA512:
- 315c2415466b4a53c50194a5034303229ae20a1d3d474de0c6cca115b5d9720c622a98f01e2146bc7ce4eac1d7988842ec6735c03283e7e6d5bb89ffbbcffc3d              182 Release
- 12da46c428a922bf5f27ca3bdf8795fe76649a8d16697ff5e93a3c0884c346605ebc562d26b5156965779b1d25afd56848c653298e2ef37c5f6b772ab51350da            20028 main/binary-all/Packages
- cf6f7a568c93df40761fc5740e984f23e012de08687f0fcfc9c53a91edc01530ac94ba6241ffc7dfd1c58dd3931949f45275174dc5fb0f8b6f65db65587db336             8098 main/binary-arm64/Packages
+ 76f7555fd532de52503fb246b803d41b1890a91b532cd77575a918167efa32f72992d15ace47bb5f94887a8785079edde05c91d7206bc3bfb7bf64b16f73db3a              182 Release
+ 0a88c156a0827f4a8bb907428d8e2d8a42380721fb5d67a8a9f8e6daac0fd9fd1ddf0c348aad1af583958def399c9d5bc817de3dfdbcdf5ca3197565dbd2af71            20028 main/binary-all/Packages
+ 5185551098773cf9c425d9ca847c201d75dbf451499d2ff43c8a48a2a535ca8a3f0e91cd1b06f97740e67c7430b2b7966acaf3980cb381aec8ccde3bd1d4f2e1             8099 main/binary-arm64/Packages
