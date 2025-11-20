@@ -1,6 +1,6 @@
 #!/bin/bash
 PATH_PWD="$(dirname "$(realpath "${BASH_SOURCE[0]}")")"
-PATH_web="${PATH_PWD}/web"
+PATH_web="${PATH_PWD}/web/debian"
 PATH_patchlist="${PATH_web}/patch-list"
 PATH_source="${PATH_PWD}/source"
 

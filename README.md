@@ -14,7 +14,7 @@ sudo  vim /etc/nginx/sites-enabled/default
 ```
 在`server`中添加一个`location`项，将路径指向本项目的`web`文件夹
 ```
-    location /debian {
+    location / {
         alias /xxx/wpi-update-server/web;
         autoindex on;
     }
