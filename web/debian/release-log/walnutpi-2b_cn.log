@@ -1,5 +1,5 @@
 [2025-11-19] - 1.5.0
-    - 新增 : 支持gpu
+    - 新增 : 支持gpu,可使用opengl调用gpu
 
 [2025-9-10] - 1.4.0
     - 安装opencv-contrib-python库
