@@ -2,3 +2,5 @@ patch-w2b
 service-w2b-dis-eth-led
 walnutpi.npu
 walnutpi.lib
+glmark2-x11
+mesa-xorg-g57-debian12

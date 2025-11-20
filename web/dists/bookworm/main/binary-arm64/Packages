@@ -112,60 +112,99 @@ Priority: optional
 Description: hcitools is used to control bluetooth
 
 Package: kernel-dtb-WalnutPi-2b-5.15.147
-Version: 1.9.0
+Version: 1.19.0
 Architecture: arm64
 Maintainer: walnutpi-build
 Installed-Size: 256
-Filename: arm64/kernel-dtb-WalnutPi-2b-5.15.147_1.9.0_arm64.deb
-Size: 31496
-MD5sum: ac21f4e2e0d7003fe092640f14eb491b
-SHA1: c68d6a3f65c728e1e59cda9f678ef9c7745574bb
-SHA256: 1fb568c3a601b98a816146298263e033b1f54f6f87ed352f89dd58f4e4c8fe48
+Filename: arm64/kernel-dtb-WalnutPi-2b-5.15.147_1.19.0_arm64.deb
+Size: 38724
+MD5sum: 8e140d5effa25f73ebedc2755a37302f
+SHA1: 3bf37674b6086be1bf9690fae6fba5780e63cfb0
+SHA256: 6e6edb9db6cec9b6b3fab556d69b0d9d6ad1f4bf6c8949bf6cd287b71f69bb1c
 Section: free
 Priority: optional
 Description: linux kernel dtb files
 
 Package: kernel-headers-WalnutPi-2b-5.15.147
-Version: 1.5.0
+Version: 1.19.0
 Architecture: arm64
 Maintainer: walnutpi-build
-Installed-Size: 120532
-Filename: arm64/kernel-headers-WalnutPi-2b-5.15.147_1.5.0_arm64.deb
-Size: 11752422
-MD5sum: da3b1ecc0255623b8c0f6841c9a06b4b
-SHA1: f8e03d2ca5fd7d5a7083bbcdb3052f1dce491e04
-SHA256: e2061abe3aa2f0d4d0202c903d45da2255b43b8985b6f5e92b4885859885b306
+Installed-Size: 120768
+Filename: arm64/kernel-headers-WalnutPi-2b-5.15.147_1.19.0_arm64.deb
+Size: 15741268
+MD5sum: 2dc02f99406ba0acaf2cfacb391e70a5
+SHA1: 222eafd24de3195f537b30550f4cc6ba22c344e1
+SHA256: 2a69f567cff3436c8779dda0409bd280259ac5829638cd7ce414043acfe3edf7
 Section: free
 Priority: optional
 Description: linux kernel header files
 
 Package: kernel-image-WalnutPi-2b-5.15.147
-Version: 1.16.0
+Version: 1.19.0
 Architecture: arm64
 Maintainer: walnutpi-build
-Installed-Size: 29108
-Filename: arm64/kernel-image-WalnutPi-2b-5.15.147_1.16.0_arm64.deb
-Size: 10098942
-MD5sum: 963937334b7a1efb3f05d29e0f010600
-SHA1: 45f70eafef014bf303defe36e0bdff17bb52f914
-SHA256: a1f74e4f9d1e877d9ccb80517c4561c747a7bf3684ad503581c640c7a880eee6
+Installed-Size: 29296
+Filename: arm64/kernel-image-WalnutPi-2b-5.15.147_1.19.0_arm64.deb
+Size: 12015334
+MD5sum: a0801f8354899dbe70cb33286b19ac7c
+SHA1: f759dd1e34d5648c74fcd3c39fd69a77e7feef01
+SHA256: bbc5860ba8768d0bdd5ac24fc2531904de3255cd2dafec9bafcbb83a3d3b8964
 Section: free
 Priority: optional
 Description: linux kernel image file
 
 Package: kernel-modules-WalnutPi-2b-5.15.147
-Version: 1.9.0
+Version: 1.19.0
 Architecture: arm64
 Maintainer: walnutpi-build
-Installed-Size: 216484
-Filename: arm64/kernel-modules-WalnutPi-2b-5.15.147_1.9.0_arm64.deb
-Size: 36578096
-MD5sum: 22c1b0f2e86bab49124a008de771cc72
-SHA1: 608b2d2dab27c3d897e2c212b998b4cc488912b9
-SHA256: 278b651877b23354519b4bd27455fcf81ec6fab8b23024c6afc2a074b2d48218
+Installed-Size: 247972
+Filename: arm64/kernel-modules-WalnutPi-2b-5.15.147_1.19.0_arm64.deb
+Size: 79645842
+MD5sum: b3d43c4641e854281dd1279f1f8e08d1
+SHA1: ee2d63ac2017adbd44c33a3a160ca3bfa3dd1be9
+SHA256: f83a14ddd84db0f8d421bef86dd9ab2b8c112c09561fcdee5434188f31f70c75
 Section: free
 Priority: optional
 Description: linux kernel modules
+
+Package: libssl1.1
+Source: openssl
+Version: 1.1.1n-0+deb11u3
+Architecture: arm64
+Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
+Installed-Size: 3734
+Depends: libc6 (>= 2.25), debconf (>= 0.5) | debconf-2.0
+Breaks: isync (<< 1.3.0-2), lighttpd (<< 1.4.49-2), python-boto (<< 2.44.0-1.1), python-httplib2 (<< 0.11.3-1), python-imaplib2 (<< 2.57-5), python3-boto (<< 2.44.0-1.1), python3-imaplib2 (<< 2.57-5)
+Filename: arm64/libssl1.1_1.1.1n-0+deb11u3_arm64.deb
+Size: 1389460
+MD5sum: 51121274f265718f5b19c505470bb384
+SHA1: 87b00d13070c2b3503668a365237ad5ac9ef6827
+SHA256: 8d4ef5a06719fabd90a6a27729ade7b9dde1a1c923a89ba1406af6489fa7c82f
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.openssl.org/
+Description: Secure Sockets Layer toolkit - shared libraries
+ This package is part of the OpenSSL project's implementation of the SSL
+ and TLS cryptographic protocols for secure communication over the
+ Internet.
+ .
+ It provides the libssl and libcrypto shared libraries.
+
+Package: mesa-xorg-g57-debian12
+Version: 1.0.0
+Architecture: arm64
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 15488
+Depends: libssl1.1
+Filename: arm64/mesa-xorg-g57-debian12_1.0.0_arm64.deb
+Size: 4826194
+MD5sum: 4fdc002495b8ccf01e48793e4acdf5ba
+SHA1: feeda90243b2ef68dbc0433f620deb1d587f7763
+SHA256: b09fe15ca6d46c90fea3ae5c63259a6bc37cc088c32d6a4c38a673c9a2b76b32
+Section: free
+Priority: optional
+Description: the mali-g57 userspace file for debian12-xorg
 
 Package: python3-sudo
 Version: 1.0.0
