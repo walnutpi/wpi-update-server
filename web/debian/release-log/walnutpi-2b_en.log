@@ -1,3 +1,6 @@
+[2025-11-21] - 1.5.1
+    - Fix : walnutpi.npu library, the error of not finding the library when running
+
 [2025-11-19] - 1.5.0
     - New : add support for gpu, can use opengl to call gpu
 
