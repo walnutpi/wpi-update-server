@@ -171,6 +171,21 @@ Section: free
 Priority: optional
 Description: fix the systemd-networkd-wait-online.service bug
 
+Package: goodix-ts-auto-rotation
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 36
+Depends: xinput
+Filename: main/goodix-ts-auto-rotation_1.0.0_all.deb
+Size: 1946
+MD5sum: 514134a3d51757d08433cc158bea0b3e
+SHA1: 97d75cad04766f3df5a4c62a8c8036a778b1581a
+SHA256: e2b2644ab8b4da21b76285798b26d68dc597cdea2c020fe9016070ca48751347
+Section: free
+Priority: optional
+Description: Automatic rotation of screen touch direction
+
 Package: hass-status-led
 Version: 1.1.0
 Architecture: all
