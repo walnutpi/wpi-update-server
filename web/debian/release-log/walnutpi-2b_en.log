@@ -1,3 +1,7 @@
+[2026-01-09] - 1.6.0
+    - New : support a 5.5-inch 1080p mipi screen
+    - New : support a mipi camera ov5647
+
 [2025-11-21] - 1.5.1
     - Fix : walnutpi.npu library, the error of not finding the library when running
 

@@ -112,15 +112,15 @@ Priority: optional
 Description: hcitools is used to control bluetooth
 
 Package: kernel-dtb-WalnutPi-2b-5.15.147
-Version: 1.19.0
+Version: 1.22.0
 Architecture: arm64
 Maintainer: walnutpi-build
 Installed-Size: 256
-Filename: arm64/kernel-dtb-WalnutPi-2b-5.15.147_1.19.0_arm64.deb
-Size: 38724
-MD5sum: 8e140d5effa25f73ebedc2755a37302f
-SHA1: 3bf37674b6086be1bf9690fae6fba5780e63cfb0
-SHA256: 6e6edb9db6cec9b6b3fab556d69b0d9d6ad1f4bf6c8949bf6cd287b71f69bb1c
+Filename: arm64/kernel-dtb-WalnutPi-2b-5.15.147_1.22.0_arm64.deb
+Size: 38744
+MD5sum: 2656ca9a207b1a79ec2f5e93589a096c
+SHA1: 62204bc61d50b4998163a5bf49bb48dfe0944ef4
+SHA256: 83fa96cbbb386036f9661f6ee0dbe43ee682f20605058df510c78a3ab873729f
 Section: free
 Priority: optional
 Description: linux kernel dtb files
@@ -154,18 +154,32 @@ Priority: optional
 Description: linux kernel image file
 
 Package: kernel-modules-WalnutPi-2b-5.15.147
-Version: 1.19.0
+Version: 1.22.0
 Architecture: arm64
 Maintainer: walnutpi-build
-Installed-Size: 247972
-Filename: arm64/kernel-modules-WalnutPi-2b-5.15.147_1.19.0_arm64.deb
-Size: 79645842
-MD5sum: b3d43c4641e854281dd1279f1f8e08d1
-SHA1: ee2d63ac2017adbd44c33a3a160ca3bfa3dd1be9
-SHA256: f83a14ddd84db0f8d421bef86dd9ab2b8c112c09561fcdee5434188f31f70c75
+Installed-Size: 248520
+Filename: arm64/kernel-modules-WalnutPi-2b-5.15.147_1.22.0_arm64.deb
+Size: 79874248
+MD5sum: 1017e360f34a22ab83c5d196552b536c
+SHA1: ad5764bf3b572bf8a879991768f088445bb4d0ae
+SHA256: 086fc80f674d6974f6376c5fe2626f69714ea276eb81152483f96c3c8a92139e
 Section: free
 Priority: optional
 Description: linux kernel modules
+
+Package: libisp-t527
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 4088
+Filename: arm64/libisp-t527_1.0.0_all.deb
+Size: 940592
+MD5sum: 471a8a3fbe3401d0867454dbad0821b5
+SHA1: 4033c23ebdb5aa7955f3b3081df8b231109f328e
+SHA256: dbc6aa109f69d9f9f524a8d2510cf2986ed87a417b04b87ebba8a5b246662186
+Section: free
+Priority: optional
+Description: a lib to control isp on t527
 
 Package: libssl1.1
 Source: openssl
@@ -259,17 +273,31 @@ Section: free
 Priority: optional
 Description: walnutpi support some lib
 
+Package: walnutpi.isp
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 264
+Filename: arm64/walnutpi.isp_1.0.0_all.deb
+Size: 28998
+MD5sum: 7a1d42b276c0f9cfbcacff54b1edbaf8
+SHA1: b34c8792cf066a208e44328fd9a39a21ee53dfcf
+SHA256: 41ac7cabe41164221577391d1f26bbc4199544b35db21bc42f13f71381ced2eb
+Section: free
+Priority: optional
+Description: a python lib to control isp
+
 Package: walnutpi.lib
-Version: 1.0.1
+Version: 1.0.3
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
 Installed-Size: 228
 Depends: walnutpi.npu
-Filename: arm64/walnutpi.lib_1.0.1_all.deb
-Size: 17052
-MD5sum: 18c048e256067a8aee3661e83fac0b26
-SHA1: b80d7d80e5c6d5ab61b127deb41a62e9ccea1d02
-SHA256: b4ed1574d1d39650934511ff53e2ca4515ccf2cc2a10b699a126d71e007250f9
+Filename: arm64/walnutpi.lib_1.0.3_all.deb
+Size: 18064
+MD5sum: 0755c1572ebf0bcbd547432ad94b21cb
+SHA1: 4170c7b3798a73783fb314d67285b0730cbaceb0
+SHA256: a52a2bf8e1f35dc3c2aeb66f7505a29385853fb1cdc5ac08afd41171b2ef925b
 Section: free
 Priority: optional
 Description: a python lib to import all lib about walnutpi

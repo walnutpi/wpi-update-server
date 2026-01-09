@@ -4,3 +4,5 @@ walnutpi.npu
 walnutpi.lib
 glmark2-drm
 mesa-xorg-g57-debian12
+libisp-t527
+walnutpi.isp

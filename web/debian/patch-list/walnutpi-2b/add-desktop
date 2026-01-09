@@ -4,3 +4,7 @@ walnutpi.npu
 walnutpi.lib
 glmark2-x11
 mesa-xorg-g57-debian12
+libisp-t527
+walnutpi.isp
+goodix-ts-auto-rotation
+file-roller
