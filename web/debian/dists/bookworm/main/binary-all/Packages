@@ -172,16 +172,16 @@ Priority: optional
 Description: fix the systemd-networkd-wait-online.service bug
 
 Package: goodix-ts-auto-rotation
-Version: 1.0.0
+Version: 1.1.0
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
 Installed-Size: 36
 Depends: xinput
-Filename: main/goodix-ts-auto-rotation_1.0.0_all.deb
-Size: 1946
-MD5sum: 514134a3d51757d08433cc158bea0b3e
-SHA1: 97d75cad04766f3df5a4c62a8c8036a778b1581a
-SHA256: e2b2644ab8b4da21b76285798b26d68dc597cdea2c020fe9016070ca48751347
+Filename: main/goodix-ts-auto-rotation_1.1.0_all.deb
+Size: 2174
+MD5sum: 03ba87657afaf5f15872a8231fb26798
+SHA1: bd65a0b0d0df72526e74bd8d82e2e06bed174327
+SHA256: 6de483038146a9aa3758f74b27a653a40c509c2fb0a1f1393e36e9e7619b39e2
 Section: free
 Priority: optional
 Description: Automatic rotation of screen touch direction
@@ -497,15 +497,15 @@ Priority: optional
 Description: Configuration language
 
 Package: set-lcd
-Version: 1.4.0
+Version: 1.5.0
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 2232
-Filename: main/set-lcd_1.4.0_all.deb
-Size: 418332
-MD5sum: e4025c1558310730a0a5da084efc474f
-SHA1: 2a6d1e42109f9eaa635ca258dcf005b22f93a12c
-SHA256: 0b2e4d5b670d03d498429eafd4cec8619298817e5be716819f9912ac12d01700
+Installed-Size: 2392
+Filename: main/set-lcd_1.5.0_all.deb
+Size: 433058
+MD5sum: 4541ea534f82674f261a93003b7e620e
+SHA1: ab24b02661e2a2c4221d68b5741d3b8d6f380ac3
+SHA256: b7c3f02c2a92e71c8c3cff0f788e0322337bf53bc478a413b2372e4ea4e4e91e
 Section: free
 Priority: optional
 Description: Configuration lcd
