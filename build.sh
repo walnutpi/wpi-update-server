@@ -71,12 +71,12 @@ cd $PATH_web
 bin_all=${PATH_web}/dists/bookworm/main/binary-all
 mkdir  -p ${bin_all}
 cd ${PATH_web}
-dpkg-scanpackages pool/main /dev/null > ${bin_all}/Packages
+dpkg-scanpackages --multiversion pool/main /dev/null > ${bin_all}/Packages
 
 bin_arm64=${PATH_web}/dists/bookworm/main/binary-arm64
 mkdir  -p ${bin_arm64}
 cd ${PATH_web}
-dpkg-scanpackages pool/arm64 /dev/null > ${bin_arm64}/Packages
+dpkg-scanpackages --multiversion pool/arm64 /dev/null > ${bin_arm64}/Packages
 
 echo "生成release文件"
 cd $PATH_PWD
