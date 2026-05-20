@@ -1,0 +1,250 @@
+Package: blinka
+Version: 0.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 5676
+Depends: make, gcc
+Filename: pool/arm64/blinka_0.1_all.deb
+Size: 2617176
+MD5sum: 40aca76e4c6fb002ef9247ecdeedf28d
+SHA1: e77d6acd62dfa95a17cff1eb4dd93e48fbaf5542
+SHA256: 700597e7195842f17ecd46f2b1cdf95c563cc98d113d3091314cad5ee12f626c
+Section: free
+Priority: optional
+Description: control the gpio with python
+
+Package: blinka
+Version: 0.2
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 5804
+Depends: make, gcc
+Filename: pool/arm64/blinka_0.2_all.deb
+Size: 2624332
+MD5sum: e61ce9bbb67ca9c167c3948cee291707
+SHA1: 2da567e2e134bdcc6cbd3d2408df009b79796144
+SHA256: 1875d7b4f98a7c6d8ddda8521284f8d1ba34c6b527df93e9d1ef5d6faf282a41
+Section: free
+Priority: optional
+Description: control the gpio with python
+
+Package: bluez
+Version: 666.5.66-1+deb12u1
+Architecture: arm64
+Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
+Installed-Size: 4468
+Pre-Depends: init-system-helpers (>= 1.54~)
+Depends: libasound2 (>= 1.0.17), libc6 (>= 2.34), libdbus-1-3 (>= 1.9.14), libdw1 (>= 0.127), libglib2.0-0 (>= 2.31.8), libreadline8 (>= 6.0), libudev1 (>= 196), kmod, udev, lsb-base, default-dbus-system-bus | dbus-system-bus
+Suggests: pulseaudio-module-bluetooth
+Conflicts: bluez-audio (<= 3.36-3), bluez-utils (<= 3.36-3)
+Breaks: udev (<< 170-1)
+Replaces: bluez-audio (<= 3.36-3), bluez-input, bluez-network, bluez-serial, bluez-utils (<= 3.36-3), udev (<< 170-1)
+Filename: pool/arm64/bluez_666.5.66-1+deb12u1_arm64.deb
+Size: 1121612
+MD5sum: 312b0798831d1bbbea0be0c50d03681c
+SHA1: 575b0a7a8a3499b80170849f21b3e59878e30e94
+SHA256: 8d39522358a576ced88afb76c3e3b59b5b09ccf036c054badc1a7258eda33fad
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://www.bluez.org
+Description: Bluetooth tools and daemons
+ This package contains tools and system daemons for using Bluetooth devices.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+Package: bluez
+Version: 666.6.66-1+deb12u1
+Architecture: arm64
+Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
+Installed-Size: 3484
+Pre-Depends: init-system-helpers (>= 1.54~)
+Depends: libasound2 (>= 1.0.17), libc6 (>= 2.34), libdbus-1-3 (>= 1.9.14), libdw1 (>= 0.127), libglib2.0-0 (>= 2.31.8), libreadline8 (>= 6.0), libudev1 (>= 196), kmod, udev, lsb-base, default-dbus-system-bus | dbus-system-bus
+Suggests: pulseaudio-module-bluetooth
+Conflicts: bluez-audio (<= 3.36-3), bluez-utils (<= 3.36-3)
+Breaks: udev (<< 170-1)
+Replaces: bluez-audio (<= 3.36-3), bluez-input, bluez-network, bluez-serial, bluez-utils (<= 3.36-3), udev (<< 170-1)
+Filename: pool/arm64/bluez_666.6.66-1+deb12u1_arm64.deb
+Size: 894618
+MD5sum: 68a22885d695ef751b2ff8299c8d0eeb
+SHA1: fcc0ac882d4751bf5ef06d70423d45bf38ef0fc8
+SHA256: d85ecd4b7549e20712eae2fa2c6d695b71c5c7fbc17efa385049b9c0d941caa7
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://www.bluez.org
+Description: Bluetooth tools and daemons
+ This package contains tools and system daemons for using Bluetooth devices.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+
+Package: emmc-burner
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 1624
+Depends: libfreetype6-dev
+Filename: pool/arm64/emmc-burner_1.0.0_all.deb
+Size: 766330
+MD5sum: 7d24ac8341aface6952eb28b87227b7c
+SHA1: e2afa8b9ebf5a907783ad7a33aba2bca7bd7efce
+SHA256: 2c0833cc5884e8806b78a7d153ce1189eaf9e1d1ddfce89a8a8454dadfbf6f58
+Section: free
+Priority: optional
+Description: burn the image to emmc at boot
+
+
+Package: hcitools
+Version: 1.0.0
+Architecture: arm64
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 992
+Filename: pool/arm64/hcitools_1.0.0_arm64.deb
+Size: 233428
+MD5sum: 7c1db86ab27514c6087f472ba806f908
+SHA1: 9fbdfcf187259ff353eda98b8eb9b8b1bd3ab5bb
+SHA256: 459f085a7e7b502c6e020a052b961a28231ced81f52cfc46315f70244c781229
+Section: free
+Priority: optional
+Description: hcitools is used to control bluetooth
+
+
+Package: libssl1.1
+Source: openssl
+Version: 1.1.1n-0+deb11u3
+Architecture: arm64
+Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
+Installed-Size: 3734
+Depends: libc6 (>= 2.25), debconf (>= 0.5) | debconf-2.0
+Breaks: isync (<< 1.3.0-2), lighttpd (<< 1.4.49-2), python-boto (<< 2.44.0-1.1), python-httplib2 (<< 0.11.3-1), python-imaplib2 (<< 2.57-5), python3-boto (<< 2.44.0-1.1), python3-imaplib2 (<< 2.57-5)
+Filename: pool/arm64/libssl1.1_1.1.1n-0+deb11u3_arm64.deb
+Size: 1389460
+MD5sum: 51121274f265718f5b19c505470bb384
+SHA1: 87b00d13070c2b3503668a365237ad5ac9ef6827
+SHA256: 8d4ef5a06719fabd90a6a27729ade7b9dde1a1c923a89ba1406af6489fa7c82f
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.openssl.org/
+Description: Secure Sockets Layer toolkit - shared libraries
+ This package is part of the OpenSSL project's implementation of the SSL
+ and TLS cryptographic protocols for secure communication over the
+ Internet.
+ .
+ It provides the libssl and libcrypto shared libraries.
+
+Package: python3-sudo
+Version: 1.0.0
+Architecture: arm64
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 92
+Filename: pool/arm64/python3-sudo_1.0.0_arm64.deb
+Size: 3698
+MD5sum: 4826f0627758d074910d36c81d314807
+SHA1: 56267f7c90536098db574666d35e66718649c1c5
+SHA256: 8eb62e6cec98831c36bff648041c2a73f40216673397a3f5263573806dda3ed3
+Section: free
+Priority: optional
+Description: run python3 as sudo
+
+Package: realvnc-vnc-viewer
+Source: realvnc-vnc
+Version: 7.6.0.50657
+Architecture: arm64
+Maintainer: RealVNC <noreply@realvnc.com>
+Installed-Size: 10210
+Depends: libc6, libgcc1 (>= 1:4.2), libice6 (>= 1:1.0.0), libsm6, libx11-6, libxext6
+Conflicts: vnc-e, xtightvncviewer
+Filename: pool/arm64/VNC-Viewer-7.6.0-Linux-ARM64.deb
+Size: 3396800
+MD5sum: bc2299dfbe04f9af004c853c7c5e17ed
+SHA1: 5a92ba323b9b21f22df6c789ef644f74b6a5336c
+SHA256: b03fa4a6b0567895782a657e99cec2da1c8410f97db2e9e5d9a9adf8e85c2b9c
+Section: x11
+Priority: optional
+Homepage: https://www.realvnc.com/
+Description: VNC® Viewer
+ VNC Viewer, from RealVNC, the original inventor of VNC technology, is remote access
+ software that enables you to securely connect to and control a remote
+ computer.
+ RealVNC recommends the realvnc-vnc-server package (VNC Server) for the
+ remote computer, for seamless, secure and reliable connections. A free trial
+ is available.
+
+Package: walnutpi-lib
+Version: 1.0.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 8976
+Depends: make, gcc
+Filename: pool/arm64/walnutpi-lib_1.0.1_all.deb
+Size: 4055694
+MD5sum: cbbd2a8c51ef7cbf2c6443d1c0a70f9b
+SHA1: f5caab2492ce34d33d3ab9f5b9be46a34071a554
+SHA256: 93c1064a7ac245d066d8c3a2a0a92c91ca2c476e6116803443be6c66f03566da
+Section: free
+Priority: optional
+Description: walnutpi support some lib
+
+Package: walnutpi-lib
+Version: 1.0.2
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 9072
+Depends: make, gcc
+Filename: pool/arm64/walnutpi-lib_1.0.2_all.deb
+Size: 4065792
+MD5sum: f275126ff304aef83f096da89d8b0010
+SHA1: 5ecab077e61bc06e439623901f8f254a11c2bfe8
+SHA256: 37109f824c376f4d1cdd7a2f13c194a7c7f033629284f95416b12b0d016ef157
+Section: free
+Priority: optional
+Description: walnutpi support some lib
+
+Package: walnutpi-lib
+Version: 1.0.3
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 9076
+Depends: make, gcc
+Filename: pool/arm64/walnutpi-lib_1.0.3_all.deb
+Size: 4065968
+MD5sum: 47d5055dd70b2b001c3a1f24b87f4b35
+SHA1: b06941bb8c6aafe9709d8ca64f17421ce4c062a4
+SHA256: 4d8b6c1e930765764e374a2037c57b6682f56bb2851fcf1d2ee444775f4287b7
+Section: free
+Priority: optional
+Description: walnutpi support some lib
+
+Package: walnutpi-lib
+Version: 1.1.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 9812
+Depends: make, gcc
+Filename: pool/arm64/walnutpi-lib_1.1.0_all.deb
+Size: 4237242
+MD5sum: 424c3168dec1dfa0faaeb6f4b85b53e2
+SHA1: c276040a94acb6179d97a300320c1f70be03d8b8
+SHA256: 314b4338a6b3b0948d5587185bdb5cbbed2aa11b8ceb06b02487badc1962ca94
+Section: free
+Priority: optional
+Description: walnutpi support some lib
+
+Package: walnutpi-lib
+Version: 1.1.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 9684
+Depends: make, gcc
+Filename: pool/arm64/walnutpi-lib_1.1.1_all.deb
+Size: 4541576
+MD5sum: c17ec5714c3528bf5b5e14e263d71271
+SHA1: 2b58f41078f167debbf3c2a900aa7898735cd2b6
+SHA256: 0edda5fa0cd42d52476a6cdb4179ad326d6940a53b63074f03e3271ac91da0db
+Section: free
+Priority: optional
+Description: walnutpi support some lib
