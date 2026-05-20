@@ -1,3 +1,18 @@
+
+Package: configtxt-WalnutPi-1b-v2024.01
+Version: 1.1
+Architecture: arm64
+Maintainer: walnutpi-build
+Installed-Size: 16
+Filename: pool/main/configtxt-WalnutPi-1b-v2024.01_1.1_arm64.deb
+Size: 1390
+MD5sum: 9c1195be43e1be6e13f6ae66abd39794
+SHA1: be543d51af01933b225fc9c006cdee7098d464a6
+SHA256: 444cb5ff1d6f22a6b6ce82ecd31ce06ee0cbd9ea7ece236c9d952d0770ae5b7a
+Section: free
+Priority: optional
+Description: config.txt for boot
+
 Package: conf-google-pinyin
 Version: 1.0.0
 Architecture: all
@@ -70,20 +85,6 @@ SHA256: a623e6d4e8e5002ffac7e38971f2aae607e4d7fbd8f8fcae378568b98f4535c5
 Section: free
 Priority: optional
 Description: setting autologin user is pi
-
-Package: conf-t527-audio
-Version: 1.0.1
-Architecture: all
-Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 36
-Filename: pool/main/conf-t527-audio_1.0.1_all.deb
-Size: 1432
-MD5sum: 3795b15e18c1da769daae517e290371c
-SHA1: c3c2440655102de53e4d341a304225600559cccf
-SHA256: 61d5d787bf93e65387cbefbf3fc15e1a982b8ef29985e93ba809e768922532cd
-Section: free
-Priority: optional
-Description: conf audio
 
 Package: conf-thonny
 Version: 1.0.0
@@ -355,6 +356,20 @@ Section: free
 Priority: optional
 Description: service, disable the frmebuf console when config.txt has keyword
 
+Package: service-disable-fbcon
+Version: 1.1.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 36
+Filename: pool/main/service-disable-fbcon_1.1.0_all.deb
+Size: 1590
+MD5sum: 8ad976e121f9e5872a2032a3e5f01ff1
+SHA1: c31db131319bebec0377a0f987ab447af9db7d35
+SHA256: d72cc9180782b3b598ff4c99cf4198605559ec000a89ecc1078fd909b25ef7f2
+Section: free
+Priority: optional
+Description: service, disable the frmebuf console when config.txt has keyword
+
 Package: service-h616-conf-thermal-trip
 Version: 1.0.
 Architecture: all
@@ -537,20 +552,6 @@ SHA256: 97f262622e7a9efec3b5f544cda174478365a5bfda9f2ab404138bac55003691
 Section: free
 Priority: optional
 Description: Configuration x11 vnc server
-
-Package: t527-fbdev
-Version: 1.0.1
-Architecture: all
-Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 24
-Filename: pool/main/t527-fbdev_1.0.1_all.deb
-Size: 668
-MD5sum: 52c9f99abd1644354072e124144b2fc7
-SHA1: ddb489253f6aa799c78b8864b31979fa1005a856
-SHA256: 93a9b79784aefacbbfd12a785e87b0acc9fa4eebd7aaaac51a88661eb5427111
-Section: free
-Priority: optional
-Description: set xorg use fbdev
 
 Package: walnutpi1b-base
 Version: 1.0.1

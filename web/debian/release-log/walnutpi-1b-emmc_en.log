@@ -1,6 +1,8 @@
+[2026-5-20] - 2.6.0
+    - Function Optimization : Optimize the allocation of 100M Ethernet MAC address allocation problem, remove the restart at the first boot
+    - NEW : add support for automatic login to the display terminal, enable auto-login can be configured through the config.txt file.
 [2025-3-6] - 2.5.1
     - FIX : set-lcd : 3.5' lcd enable error
-
 
 [2025-3-4] - 2.5.0
     - NEW : map-device

@@ -1,4 +1,19 @@
 Package: blinka
+Version: 0.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 5676
+Depends: make, gcc
+Filename: pool/arm64/blinka_0.1_all.deb
+Size: 2617176
+MD5sum: 40aca76e4c6fb002ef9247ecdeedf28d
+SHA1: e77d6acd62dfa95a17cff1eb4dd93e48fbaf5542
+SHA256: 700597e7195842f17ecd46f2b1cdf95c563cc98d113d3091314cad5ee12f626c
+Section: free
+Priority: optional
+Description: control the gpio with python
+
+Package: blinka
 Version: 0.2
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
@@ -12,6 +27,32 @@ SHA256: 1875d7b4f98a7c6d8ddda8521284f8d1ba34c6b527df93e9d1ef5d6faf282a41
 Section: free
 Priority: optional
 Description: control the gpio with python
+
+Package: bluez
+Version: 666.5.66-1+deb12u1
+Architecture: arm64
+Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
+Installed-Size: 4468
+Pre-Depends: init-system-helpers (>= 1.54~)
+Depends: libasound2 (>= 1.0.17), libc6 (>= 2.34), libdbus-1-3 (>= 1.9.14), libdw1 (>= 0.127), libglib2.0-0 (>= 2.31.8), libreadline8 (>= 6.0), libudev1 (>= 196), kmod, udev, lsb-base, default-dbus-system-bus | dbus-system-bus
+Suggests: pulseaudio-module-bluetooth
+Conflicts: bluez-audio (<= 3.36-3), bluez-utils (<= 3.36-3)
+Breaks: udev (<< 170-1)
+Replaces: bluez-audio (<= 3.36-3), bluez-input, bluez-network, bluez-serial, bluez-utils (<= 3.36-3), udev (<< 170-1)
+Filename: pool/arm64/bluez_666.5.66-1+deb12u1_arm64.deb
+Size: 1121612
+MD5sum: 312b0798831d1bbbea0be0c50d03681c
+SHA1: 575b0a7a8a3499b80170849f21b3e59878e30e94
+SHA256: 8d39522358a576ced88afb76c3e3b59b5b09ccf036c054badc1a7258eda33fad
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://www.bluez.org
+Description: Bluetooth tools and daemons
+ This package contains tools and system daemons for using Bluetooth devices.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
 
 Package: bluez
 Version: 666.6.66-1+deb12u1
@@ -40,6 +81,20 @@ Description: Bluetooth tools and daemons
  project distributed under GNU General Public License (GPL).
 
 Package: bootbin-WalnutPi-2b-main
+Version: 1.1
+Architecture: arm64
+Maintainer: walnutpi-build
+Installed-Size: 312
+Filename: pool/arm64/bootbin-WalnutPi-2b-main_1.1_arm64.deb
+Size: 131024
+MD5sum: c019af176cfed54199dd5379eb40904e
+SHA1: cb74e37cda9eb3289b045804b87d809ad12281e2
+SHA256: c00f57777bd55b71d57f9172e7de6e5eb10beee90524914ec7df322033471c2a
+Section: free
+Priority: optional
+Description: the boot bin
+
+Package: bootbin-WalnutPi-2b-main
 Version: 1.2
 Architecture: arm64
 Maintainer: walnutpi-build
@@ -52,6 +107,20 @@ SHA256: c5fd76323607ae3994580f4f4a8ecee8de53cb3068631f9f85174f6e1ebc64ef
 Section: free
 Priority: optional
 Description: the boot bin
+
+Package: configtxt-WalnutPi-2b-main
+Version: 1.1
+Architecture: arm64
+Maintainer: walnutpi-build
+Installed-Size: 16
+Filename: pool/arm64/configtxt-WalnutPi-2b-main_1.1_arm64.deb
+Size: 1226
+MD5sum: 615ca65be5565779c463b9ee7d645aec
+SHA1: e608ae132d539df01cafd14d00aad59065a2cac1
+SHA256: 83395999d3afaf9bd95cce704321dbee9ad213fed427b998912049a9b148bb1c
+Section: free
+Priority: optional
+Description: config.txt for boot
 
 Package: configtxt-WalnutPi-2b-main
 Version: 1.2
@@ -83,6 +152,21 @@ Priority: optional
 Description: burn the image to emmc at boot
 
 Package: gpioc
+Version: 1.5
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 1488
+Depends: make, gcc
+Filename: pool/arm64/gpioc_1.5_all.deb
+Size: 572066
+MD5sum: 71cba5a4005444926f8aaf4290d64637
+SHA1: ba67d518623116f8082007928f079b96d7f37dd8
+SHA256: 7e41e0b3e798ba903de03a1fac37c5170db6612a17a5c7e225dd24f3acdf0302
+Section: free
+Priority: optional
+Description: control the gpio
+
+Package: gpioc
 Version: 1.5.1
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
@@ -96,6 +180,20 @@ SHA256: aa3769ecf48c04bced4d6cabf8ca921c968875eeacf4176e545ad411cf5d25e8
 Section: free
 Priority: optional
 Description: control the gpio
+
+Package: hcitools
+Version: 1.0.0
+Architecture: arm64
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 992
+Filename: pool/arm64/hcitools_1.0.0_arm64.deb
+Size: 233428
+MD5sum: 7c1db86ab27514c6087f472ba806f908
+SHA1: 9fbdfcf187259ff353eda98b8eb9b8b1bd3ab5bb
+SHA256: 459f085a7e7b502c6e020a052b961a28231ced81f52cfc46315f70244c781229
+Section: free
+Priority: optional
+Description: hcitools is used to control bluetooth
 
 Package: hcitools
 Version: 1.0.1
@@ -112,6 +210,20 @@ Priority: optional
 Description: hcitools is used to control bluetooth
 
 Package: kernel-dtb-WalnutPi-2b-5.15.147
+Version: 1.19.0
+Architecture: arm64
+Maintainer: walnutpi-build
+Installed-Size: 256
+Filename: pool/arm64/kernel-dtb-WalnutPi-2b-5.15.147_1.19.0_arm64.deb
+Size: 38724
+MD5sum: 8e140d5effa25f73ebedc2755a37302f
+SHA1: 3bf37674b6086be1bf9690fae6fba5780e63cfb0
+SHA256: 6e6edb9db6cec9b6b3fab556d69b0d9d6ad1f4bf6c8949bf6cd287b71f69bb1c
+Section: free
+Priority: optional
+Description: linux kernel dtb files
+
+Package: kernel-dtb-WalnutPi-2b-5.15.147
 Version: 1.22.0
 Architecture: arm64
 Maintainer: walnutpi-build
@@ -121,6 +233,34 @@ Size: 38744
 MD5sum: 2656ca9a207b1a79ec2f5e93589a096c
 SHA1: 62204bc61d50b4998163a5bf49bb48dfe0944ef4
 SHA256: 83fa96cbbb386036f9661f6ee0dbe43ee682f20605058df510c78a3ab873729f
+Section: free
+Priority: optional
+Description: linux kernel dtb files
+
+Package: kernel-dtb-WalnutPi-2b-5.15.147
+Version: 1.5.0
+Architecture: arm64
+Maintainer: walnutpi-build
+Installed-Size: 256
+Filename: pool/arm64/kernel-dtb-WalnutPi-2b-5.15.147_1.5.0_arm64.deb
+Size: 31330
+MD5sum: 1b434bc544602ba0f84f08e0b49420f2
+SHA1: 862d8d9ce2ffbb256c231ea85ebd805aae007bf5
+SHA256: 0e9035a12f6ab956c9e9eabeb563f805d3aa2f3dc8302f10379fef4215ac10cb
+Section: free
+Priority: optional
+Description: linux kernel dtb files
+
+Package: kernel-dtb-WalnutPi-2b-5.15.147
+Version: 1.9.0
+Architecture: arm64
+Maintainer: walnutpi-build
+Installed-Size: 256
+Filename: pool/arm64/kernel-dtb-WalnutPi-2b-5.15.147_1.9.0_arm64.deb
+Size: 31496
+MD5sum: ac21f4e2e0d7003fe092640f14eb491b
+SHA1: c68d6a3f65c728e1e59cda9f678ef9c7745574bb
+SHA256: 1fb568c3a601b98a816146298263e033b1f54f6f87ed352f89dd58f4e4c8fe48
 Section: free
 Priority: optional
 Description: linux kernel dtb files
@@ -139,6 +279,48 @@ Section: free
 Priority: optional
 Description: linux kernel header files
 
+Package: kernel-headers-WalnutPi-2b-5.15.147
+Version: 1.5.0
+Architecture: arm64
+Maintainer: walnutpi-build
+Installed-Size: 120532
+Filename: pool/arm64/kernel-headers-WalnutPi-2b-5.15.147_1.5.0_arm64.deb
+Size: 11752422
+MD5sum: da3b1ecc0255623b8c0f6841c9a06b4b
+SHA1: f8e03d2ca5fd7d5a7083bbcdb3052f1dce491e04
+SHA256: e2061abe3aa2f0d4d0202c903d45da2255b43b8985b6f5e92b4885859885b306
+Section: free
+Priority: optional
+Description: linux kernel header files
+
+Package: kernel-image-WalnutPi-2b-5.15.147
+Version: 1.10.0
+Architecture: arm64
+Maintainer: walnutpi-build
+Installed-Size: 29108
+Filename: pool/arm64/kernel-image-WalnutPi-2b-5.15.147_1.10.0_arm64.deb
+Size: 10099536
+MD5sum: aeed6fa7f459c7bc622edefc79217f38
+SHA1: 3a81ec079669cdaf30872cb2c47757503aef1050
+SHA256: ee873963c8ead0038fa15a0cacd9ea20560055bb01813d86f7813c164d2c54f6
+Section: free
+Priority: optional
+Description: linux kernel image file
+
+Package: kernel-image-WalnutPi-2b-5.15.147
+Version: 1.16.0
+Architecture: arm64
+Maintainer: walnutpi-build
+Installed-Size: 29108
+Filename: pool/arm64/kernel-image-WalnutPi-2b-5.15.147_1.16.0_arm64.deb
+Size: 10098942
+MD5sum: 963937334b7a1efb3f05d29e0f010600
+SHA1: 45f70eafef014bf303defe36e0bdff17bb52f914
+SHA256: a1f74e4f9d1e877d9ccb80517c4561c747a7bf3684ad503581c640c7a880eee6
+Section: free
+Priority: optional
+Description: linux kernel image file
+
 Package: kernel-image-WalnutPi-2b-5.15.147
 Version: 1.19.0
 Architecture: arm64
@@ -153,6 +335,48 @@ Section: free
 Priority: optional
 Description: linux kernel image file
 
+Package: kernel-image-WalnutPi-2b-5.15.147
+Version: 1.5.0
+Architecture: arm64
+Maintainer: walnutpi-build
+Installed-Size: 29132
+Filename: pool/arm64/kernel-image-WalnutPi-2b-5.15.147_1.5.0_arm64.deb
+Size: 10115158
+MD5sum: 449eb4fcd01dd571b88f9be49b8bf018
+SHA1: bce00b395b34f4277e2e10b4417a9902e4ad4f54
+SHA256: 64b985fb4560b62847c20f8bd8aca9d71e4463eabc228f50e208e32bae0054e4
+Section: free
+Priority: optional
+Description: linux kernel image file
+
+Package: kernel-image-WalnutPi-2b-5.15.147
+Version: 1.9.0
+Architecture: arm64
+Maintainer: walnutpi-build
+Installed-Size: 29108
+Filename: pool/arm64/kernel-image-WalnutPi-2b-5.15.147_1.9.0_arm64.deb
+Size: 10099752
+MD5sum: 96b923e3eef5d5fb1a7f09db6f88001c
+SHA1: 13c069933c304cdb3edbcabc9adb3ab2c71ec95a
+SHA256: 5ef8eabe50e6f55114dacd86c880161c83570201e1ff19486aa4dbb8741d148a
+Section: free
+Priority: optional
+Description: linux kernel image file
+
+Package: kernel-modules-WalnutPi-2b-5.15.147
+Version: 1.19.0
+Architecture: arm64
+Maintainer: walnutpi-build
+Installed-Size: 247972
+Filename: pool/arm64/kernel-modules-WalnutPi-2b-5.15.147_1.19.0_arm64.deb
+Size: 79645842
+MD5sum: b3d43c4641e854281dd1279f1f8e08d1
+SHA1: ee2d63ac2017adbd44c33a3a160ca3bfa3dd1be9
+SHA256: f83a14ddd84db0f8d421bef86dd9ab2b8c112c09561fcdee5434188f31f70c75
+Section: free
+Priority: optional
+Description: linux kernel modules
+
 Package: kernel-modules-WalnutPi-2b-5.15.147
 Version: 1.22.0
 Architecture: arm64
@@ -163,6 +387,34 @@ Size: 79874248
 MD5sum: 1017e360f34a22ab83c5d196552b536c
 SHA1: ad5764bf3b572bf8a879991768f088445bb4d0ae
 SHA256: 086fc80f674d6974f6376c5fe2626f69714ea276eb81152483f96c3c8a92139e
+Section: free
+Priority: optional
+Description: linux kernel modules
+
+Package: kernel-modules-WalnutPi-2b-5.15.147
+Version: 1.5.0
+Architecture: arm64
+Maintainer: walnutpi-build
+Installed-Size: 212656
+Filename: pool/arm64/kernel-modules-WalnutPi-2b-5.15.147_1.5.0_arm64.deb
+Size: 35824456
+MD5sum: b7418595106cfa8966107f49ba4bb437
+SHA1: bf523bb9814ebb53b01e1250a517860a37c6586d
+SHA256: 387b609cc59db6a668cf07a5bb6500a4e4395b526e92548d3aa997402a8a09d5
+Section: free
+Priority: optional
+Description: linux kernel modules
+
+Package: kernel-modules-WalnutPi-2b-5.15.147
+Version: 1.9.0
+Architecture: arm64
+Maintainer: walnutpi-build
+Installed-Size: 216484
+Filename: pool/arm64/kernel-modules-WalnutPi-2b-5.15.147_1.9.0_arm64.deb
+Size: 36578096
+MD5sum: 22c1b0f2e86bab49124a008de771cc72
+SHA1: 608b2d2dab27c3d897e2c212b998b4cc488912b9
+SHA256: 278b651877b23354519b4bd27455fcf81ec6fab8b23024c6afc2a074b2d48218
 Section: free
 Priority: optional
 Description: linux kernel modules
@@ -259,6 +511,51 @@ Description: VNC® Viewer
  is available.
 
 Package: walnutpi-lib
+Version: 1.0.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 8976
+Depends: make, gcc
+Filename: pool/arm64/walnutpi-lib_1.0.1_all.deb
+Size: 4055694
+MD5sum: cbbd2a8c51ef7cbf2c6443d1c0a70f9b
+SHA1: f5caab2492ce34d33d3ab9f5b9be46a34071a554
+SHA256: 93c1064a7ac245d066d8c3a2a0a92c91ca2c476e6116803443be6c66f03566da
+Section: free
+Priority: optional
+Description: walnutpi support some lib
+
+Package: walnutpi-lib
+Version: 1.0.2
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 9072
+Depends: make, gcc
+Filename: pool/arm64/walnutpi-lib_1.0.2_all.deb
+Size: 4065792
+MD5sum: f275126ff304aef83f096da89d8b0010
+SHA1: 5ecab077e61bc06e439623901f8f254a11c2bfe8
+SHA256: 37109f824c376f4d1cdd7a2f13c194a7c7f033629284f95416b12b0d016ef157
+Section: free
+Priority: optional
+Description: walnutpi support some lib
+
+Package: walnutpi-lib
+Version: 1.0.3
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 9076
+Depends: make, gcc
+Filename: pool/arm64/walnutpi-lib_1.0.3_all.deb
+Size: 4065968
+MD5sum: 47d5055dd70b2b001c3a1f24b87f4b35
+SHA1: b06941bb8c6aafe9709d8ca64f17421ce4c062a4
+SHA256: 4d8b6c1e930765764e374a2037c57b6682f56bb2851fcf1d2ee444775f4287b7
+Section: free
+Priority: optional
+Description: walnutpi support some lib
+
+Package: walnutpi-lib
 Version: 1.1.0
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
@@ -269,6 +566,21 @@ Size: 4237242
 MD5sum: 424c3168dec1dfa0faaeb6f4b85b53e2
 SHA1: c276040a94acb6179d97a300320c1f70be03d8b8
 SHA256: 314b4338a6b3b0948d5587185bdb5cbbed2aa11b8ceb06b02487badc1962ca94
+Section: free
+Priority: optional
+Description: walnutpi support some lib
+
+Package: walnutpi-lib
+Version: 1.1.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 9684
+Depends: make, gcc
+Filename: pool/arm64/walnutpi-lib_1.1.1_all.deb
+Size: 4541576
+MD5sum: c17ec5714c3528bf5b5e14e263d71271
+SHA1: 2b58f41078f167debbf3c2a900aa7898735cd2b6
+SHA256: 0edda5fa0cd42d52476a6cdb4179ad326d6940a53b63074f03e3271ac91da0db
 Section: free
 Priority: optional
 Description: walnutpi support some lib
@@ -288,6 +600,36 @@ Priority: optional
 Description: a python lib to control isp
 
 Package: walnutpi.lib
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 232
+Depends: walnutpi.npu
+Filename: pool/arm64/walnutpi.lib_1.0.0_all.deb
+Size: 17116
+MD5sum: 1cf4c0943852d657f7423e644dfad028
+SHA1: c54e80a5215aab5e721301a0d0c126cb8584aa9b
+SHA256: 0cd61164ada13a9a4660f7aaddc173798115ca5632091a6ebc4521ff6785a004
+Section: free
+Priority: optional
+Description: a python lib to import all lib about walnutpi
+
+Package: walnutpi.lib
+Version: 1.0.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 228
+Depends: walnutpi.npu
+Filename: pool/arm64/walnutpi.lib_1.0.1_all.deb
+Size: 17052
+MD5sum: 18c048e256067a8aee3661e83fac0b26
+SHA1: b80d7d80e5c6d5ab61b127deb41a62e9ccea1d02
+SHA256: b4ed1574d1d39650934511ff53e2ca4515ccf2cc2a10b699a126d71e007250f9
+Section: free
+Priority: optional
+Description: a python lib to import all lib about walnutpi
+
+Package: walnutpi.lib
 Version: 1.0.3
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
@@ -301,6 +643,81 @@ SHA256: a52a2bf8e1f35dc3c2aeb66f7505a29385853fb1cdc5ac08afd41171b2ef925b
 Section: free
 Priority: optional
 Description: a python lib to import all lib about walnutpi
+
+Package: walnutpi.npu
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 696
+Depends: walnutpi.npu
+Filename: pool/arm64/walnutpi.npu_1.0.0_all.deb
+Size: 232582
+MD5sum: 8b54b865dcfcde79c2dbf95d6a454f07
+SHA1: bc0f65ece225af96c88045f8b2b1f06fe7aa9e9a
+SHA256: ea11de7e3ce8c4866cfcdc455ba5c01b759668ed0067ae8e82a163a5094e8c66
+Section: free
+Priority: optional
+Description: a python lib to control npu
+
+Package: walnutpi.npu
+Version: 1.0.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 696
+Depends: walnutpi.npu
+Filename: pool/arm64/walnutpi.npu_1.0.1_all.deb
+Size: 232602
+MD5sum: 62df31eebe927a5d7385457060ab2882
+SHA1: 6fa2ce2dfa496dd0d8cbd66193171dd86e18a9d9
+SHA256: f652a96b9131ba42f9373ac858a8eabc979912b28f22b0b25279d077847bf2dd
+Section: free
+Priority: optional
+Description: a python lib to control npu
+
+Package: walnutpi.npu
+Version: 1.0.2
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 700
+Depends: walnutpi.npu
+Filename: pool/arm64/walnutpi.npu_1.0.2_all.deb
+Size: 234350
+MD5sum: e18d075ac8b67fef20f8a15039dceafe
+SHA1: 2d8fcea63c16bfef63d6a61171b622f74604695f
+SHA256: efc29d90c92b6e9e08505695eb5e710638ea4af0b06c9298b9007a81865f6565
+Section: free
+Priority: optional
+Description: a python lib to control npu
+
+Package: walnutpi.npu
+Version: 1.1.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 696
+Depends: walnutpi.npu
+Filename: pool/arm64/walnutpi.npu_1.1.0_all.deb
+Size: 235398
+MD5sum: a31b067ef592d02e6f736650dd637413
+SHA1: 550535cbbdd605fb1f283614e0d74c6adddf264d
+SHA256: 656148b985c55b2f0ecdc111ba105dc5476bdd76a07009303f6d09cdd49499e8
+Section: free
+Priority: optional
+Description: a python lib to control npu
+
+Package: walnutpi.npu
+Version: 1.1.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 708
+Depends: walnutpi.npu
+Filename: pool/arm64/walnutpi.npu_1.1.1_all.deb
+Size: 236752
+MD5sum: c579d3c3603957c09d1139b26c553914
+SHA1: a7a0e5553d1746373263c10df868cc2d8b3b6e3c
+SHA256: a6fcffee0c08ff59c52d20c14b2e0af3e3f6dfc8225b2365638c690664235e8d
+Section: free
+Priority: optional
+Description: a python lib to control npu
 
 Package: walnutpi.npu
 Version: 1.1.2

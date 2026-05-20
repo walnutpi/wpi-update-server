@@ -1,4 +1,19 @@
 Package: blinka
+Version: 0.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 5676
+Depends: make, gcc
+Filename: pool/arm64/blinka_0.1_all.deb
+Size: 2617176
+MD5sum: 40aca76e4c6fb002ef9247ecdeedf28d
+SHA1: e77d6acd62dfa95a17cff1eb4dd93e48fbaf5542
+SHA256: 700597e7195842f17ecd46f2b1cdf95c563cc98d113d3091314cad5ee12f626c
+Section: free
+Priority: optional
+Description: control the gpio with python
+
+Package: blinka
 Version: 0.2
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
@@ -12,6 +27,32 @@ SHA256: 1875d7b4f98a7c6d8ddda8521284f8d1ba34c6b527df93e9d1ef5d6faf282a41
 Section: free
 Priority: optional
 Description: control the gpio with python
+
+Package: bluez
+Version: 666.5.66-1+deb12u1
+Architecture: arm64
+Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
+Installed-Size: 4468
+Pre-Depends: init-system-helpers (>= 1.54~)
+Depends: libasound2 (>= 1.0.17), libc6 (>= 2.34), libdbus-1-3 (>= 1.9.14), libdw1 (>= 0.127), libglib2.0-0 (>= 2.31.8), libreadline8 (>= 6.0), libudev1 (>= 196), kmod, udev, lsb-base, default-dbus-system-bus | dbus-system-bus
+Suggests: pulseaudio-module-bluetooth
+Conflicts: bluez-audio (<= 3.36-3), bluez-utils (<= 3.36-3)
+Breaks: udev (<< 170-1)
+Replaces: bluez-audio (<= 3.36-3), bluez-input, bluez-network, bluez-serial, bluez-utils (<= 3.36-3), udev (<< 170-1)
+Filename: pool/arm64/bluez_666.5.66-1+deb12u1_arm64.deb
+Size: 1121612
+MD5sum: 312b0798831d1bbbea0be0c50d03681c
+SHA1: 575b0a7a8a3499b80170849f21b3e59878e30e94
+SHA256: 8d39522358a576ced88afb76c3e3b59b5b09ccf036c054badc1a7258eda33fad
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://www.bluez.org
+Description: Bluetooth tools and daemons
+ This package contains tools and system daemons for using Bluetooth devices.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
 
 Package: bluez
 Version: 666.6.66-1+deb12u1
@@ -39,33 +80,6 @@ Description: Bluetooth tools and daemons
  BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
  project distributed under GNU General Public License (GPL).
 
-Package: bootbin-WalnutPi-2b-main
-Version: 1.2
-Architecture: arm64
-Maintainer: walnutpi-build
-Installed-Size: 312
-Filename: pool/arm64/bootbin-WalnutPi-2b-main_1.2_arm64.deb
-Size: 131026
-MD5sum: d59103bfcdc9aa182b4c93f592a4dc6b
-SHA1: bbca8bd361aa5b3ba1836a768513861a50be074f
-SHA256: c5fd76323607ae3994580f4f4a8ecee8de53cb3068631f9f85174f6e1ebc64ef
-Section: free
-Priority: optional
-Description: the boot bin
-
-Package: configtxt-WalnutPi-2b-main
-Version: 1.2
-Architecture: arm64
-Maintainer: walnutpi-build
-Installed-Size: 16
-Filename: pool/arm64/configtxt-WalnutPi-2b-main_1.2_arm64.deb
-Size: 1238
-MD5sum: be21444d10308a1a1482e1da7bfe045d
-SHA1: 85bc6fcbc6e50e4dcb32e6463e91f21bdff1b4e8
-SHA256: 9c291a95f7b40a74497f1d33fc01d2e15bcc382ea5d55f729207253faea3a955
-Section: free
-Priority: optional
-Description: config.txt for boot
 
 Package: emmc-burner
 Version: 1.0.0
@@ -82,104 +96,21 @@ Section: free
 Priority: optional
 Description: burn the image to emmc at boot
 
-Package: gpioc
-Version: 1.5.1
-Architecture: all
-Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 1856
-Depends: make, gcc
-Filename: pool/arm64/gpioc_1.5.1_all.deb
-Size: 631386
-MD5sum: 05189ac95d7f8974332370a52d7b7ef0
-SHA1: ef264ce8e82314e448bb0c5a6b06ab95edd5a737
-SHA256: aa3769ecf48c04bced4d6cabf8ca921c968875eeacf4176e545ad411cf5d25e8
-Section: free
-Priority: optional
-Description: control the gpio
 
 Package: hcitools
-Version: 1.0.1
+Version: 1.0.0
 Architecture: arm64
 Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 2316
-Filename: pool/arm64/hcitools_1.0.1_arm64.deb
-Size: 881448
-MD5sum: b2997e3f7fbd3deb4e8f815787c8f72b
-SHA1: f17c932a8d758dd1863adea143aff99fd6858a18
-SHA256: bbc6ac6b30a750f206787702197d4fbf424cafbfabb411fe504877c72d08bcac
+Installed-Size: 992
+Filename: pool/arm64/hcitools_1.0.0_arm64.deb
+Size: 233428
+MD5sum: 7c1db86ab27514c6087f472ba806f908
+SHA1: 9fbdfcf187259ff353eda98b8eb9b8b1bd3ab5bb
+SHA256: 459f085a7e7b502c6e020a052b961a28231ced81f52cfc46315f70244c781229
 Section: free
 Priority: optional
 Description: hcitools is used to control bluetooth
 
-Package: kernel-dtb-WalnutPi-2b-5.15.147
-Version: 1.22.0
-Architecture: arm64
-Maintainer: walnutpi-build
-Installed-Size: 256
-Filename: pool/arm64/kernel-dtb-WalnutPi-2b-5.15.147_1.22.0_arm64.deb
-Size: 38744
-MD5sum: 2656ca9a207b1a79ec2f5e93589a096c
-SHA1: 62204bc61d50b4998163a5bf49bb48dfe0944ef4
-SHA256: 83fa96cbbb386036f9661f6ee0dbe43ee682f20605058df510c78a3ab873729f
-Section: free
-Priority: optional
-Description: linux kernel dtb files
-
-Package: kernel-headers-WalnutPi-2b-5.15.147
-Version: 1.19.0
-Architecture: arm64
-Maintainer: walnutpi-build
-Installed-Size: 120768
-Filename: pool/arm64/kernel-headers-WalnutPi-2b-5.15.147_1.19.0_arm64.deb
-Size: 15741268
-MD5sum: 2dc02f99406ba0acaf2cfacb391e70a5
-SHA1: 222eafd24de3195f537b30550f4cc6ba22c344e1
-SHA256: 2a69f567cff3436c8779dda0409bd280259ac5829638cd7ce414043acfe3edf7
-Section: free
-Priority: optional
-Description: linux kernel header files
-
-Package: kernel-image-WalnutPi-2b-5.15.147
-Version: 1.19.0
-Architecture: arm64
-Maintainer: walnutpi-build
-Installed-Size: 29296
-Filename: pool/arm64/kernel-image-WalnutPi-2b-5.15.147_1.19.0_arm64.deb
-Size: 12015334
-MD5sum: a0801f8354899dbe70cb33286b19ac7c
-SHA1: f759dd1e34d5648c74fcd3c39fd69a77e7feef01
-SHA256: bbc5860ba8768d0bdd5ac24fc2531904de3255cd2dafec9bafcbb83a3d3b8964
-Section: free
-Priority: optional
-Description: linux kernel image file
-
-Package: kernel-modules-WalnutPi-2b-5.15.147
-Version: 1.22.0
-Architecture: arm64
-Maintainer: walnutpi-build
-Installed-Size: 248520
-Filename: pool/arm64/kernel-modules-WalnutPi-2b-5.15.147_1.22.0_arm64.deb
-Size: 79874248
-MD5sum: 1017e360f34a22ab83c5d196552b536c
-SHA1: ad5764bf3b572bf8a879991768f088445bb4d0ae
-SHA256: 086fc80f674d6974f6376c5fe2626f69714ea276eb81152483f96c3c8a92139e
-Section: free
-Priority: optional
-Description: linux kernel modules
-
-Package: libisp-t527
-Version: 1.0.0
-Architecture: all
-Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 4088
-Filename: pool/arm64/libisp-t527_1.0.0_all.deb
-Size: 940592
-MD5sum: 471a8a3fbe3401d0867454dbad0821b5
-SHA1: 4033c23ebdb5aa7955f3b3081df8b231109f328e
-SHA256: dbc6aa109f69d9f9f524a8d2510cf2986ed87a417b04b87ebba8a5b246662186
-Section: free
-Priority: optional
-Description: a lib to control isp on t527
 
 Package: libssl1.1
 Source: openssl
@@ -204,21 +135,6 @@ Description: Secure Sockets Layer toolkit - shared libraries
  Internet.
  .
  It provides the libssl and libcrypto shared libraries.
-
-Package: mesa-xorg-g57-debian12
-Version: 1.0.0
-Architecture: arm64
-Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 15488
-Depends: libssl1.1
-Filename: pool/arm64/mesa-xorg-g57-debian12_1.0.0_arm64.deb
-Size: 4826194
-MD5sum: 4fdc002495b8ccf01e48793e4acdf5ba
-SHA1: feeda90243b2ef68dbc0433f620deb1d587f7763
-SHA256: b09fe15ca6d46c90fea3ae5c63259a6bc37cc088c32d6a4c38a673c9a2b76b32
-Section: free
-Priority: optional
-Description: the mali-g57 userspace file for debian12-xorg
 
 Package: python3-sudo
 Version: 1.0.0
@@ -259,6 +175,51 @@ Description: VNC® Viewer
  is available.
 
 Package: walnutpi-lib
+Version: 1.0.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 8976
+Depends: make, gcc
+Filename: pool/arm64/walnutpi-lib_1.0.1_all.deb
+Size: 4055694
+MD5sum: cbbd2a8c51ef7cbf2c6443d1c0a70f9b
+SHA1: f5caab2492ce34d33d3ab9f5b9be46a34071a554
+SHA256: 93c1064a7ac245d066d8c3a2a0a92c91ca2c476e6116803443be6c66f03566da
+Section: free
+Priority: optional
+Description: walnutpi support some lib
+
+Package: walnutpi-lib
+Version: 1.0.2
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 9072
+Depends: make, gcc
+Filename: pool/arm64/walnutpi-lib_1.0.2_all.deb
+Size: 4065792
+MD5sum: f275126ff304aef83f096da89d8b0010
+SHA1: 5ecab077e61bc06e439623901f8f254a11c2bfe8
+SHA256: 37109f824c376f4d1cdd7a2f13c194a7c7f033629284f95416b12b0d016ef157
+Section: free
+Priority: optional
+Description: walnutpi support some lib
+
+Package: walnutpi-lib
+Version: 1.0.3
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 9076
+Depends: make, gcc
+Filename: pool/arm64/walnutpi-lib_1.0.3_all.deb
+Size: 4065968
+MD5sum: 47d5055dd70b2b001c3a1f24b87f4b35
+SHA1: b06941bb8c6aafe9709d8ca64f17421ce4c062a4
+SHA256: 4d8b6c1e930765764e374a2037c57b6682f56bb2851fcf1d2ee444775f4287b7
+Section: free
+Priority: optional
+Description: walnutpi support some lib
+
+Package: walnutpi-lib
 Version: 1.1.0
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
@@ -273,47 +234,17 @@ Section: free
 Priority: optional
 Description: walnutpi support some lib
 
-Package: walnutpi.isp
-Version: 1.0.0
+Package: walnutpi-lib
+Version: 1.1.1
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 264
-Filename: pool/arm64/walnutpi.isp_1.0.0_all.deb
-Size: 28998
-MD5sum: 7a1d42b276c0f9cfbcacff54b1edbaf8
-SHA1: b34c8792cf066a208e44328fd9a39a21ee53dfcf
-SHA256: 41ac7cabe41164221577391d1f26bbc4199544b35db21bc42f13f71381ced2eb
+Installed-Size: 9684
+Depends: make, gcc
+Filename: pool/arm64/walnutpi-lib_1.1.1_all.deb
+Size: 4541576
+MD5sum: c17ec5714c3528bf5b5e14e263d71271
+SHA1: 2b58f41078f167debbf3c2a900aa7898735cd2b6
+SHA256: 0edda5fa0cd42d52476a6cdb4179ad326d6940a53b63074f03e3271ac91da0db
 Section: free
 Priority: optional
-Description: a python lib to control isp
-
-Package: walnutpi.lib
-Version: 1.0.3
-Architecture: all
-Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 228
-Depends: walnutpi.npu
-Filename: pool/arm64/walnutpi.lib_1.0.3_all.deb
-Size: 18064
-MD5sum: 0755c1572ebf0bcbd547432ad94b21cb
-SHA1: 4170c7b3798a73783fb314d67285b0730cbaceb0
-SHA256: a52a2bf8e1f35dc3c2aeb66f7505a29385853fb1cdc5ac08afd41171b2ef925b
-Section: free
-Priority: optional
-Description: a python lib to import all lib about walnutpi
-
-Package: walnutpi.npu
-Version: 1.1.2
-Architecture: all
-Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 760
-Depends: walnutpi.npu
-Filename: pool/arm64/walnutpi.npu_1.1.2_all.deb
-Size: 253820
-MD5sum: 254bdf50396d073cb3976058dcc5338b
-SHA1: 73e08c005243a4ee7ebee2dd94373635129936ad
-SHA256: fd64d3ddd492863a5dc19462552500f8d197b2b7e59e32140208487093e79419
-Section: free
-Priority: optional
-Description: a python lib to control npu
-
+Description: walnutpi support some lib
