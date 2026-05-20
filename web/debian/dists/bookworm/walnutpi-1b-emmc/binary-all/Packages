@@ -1,17 +1,17 @@
-
-Package: configtxt-WalnutPi-1b-v2024.01
-Version: 1.1
-Architecture: arm64
-Maintainer: walnutpi-build
-Installed-Size: 16
-Filename: pool/main/configtxt-WalnutPi-1b-v2024.01_1.1_arm64.deb
-Size: 1390
-MD5sum: 9c1195be43e1be6e13f6ae66abd39794
-SHA1: be543d51af01933b225fc9c006cdee7098d464a6
-SHA256: 444cb5ff1d6f22a6b6ce82ecd31ce06ee0cbd9ea7ece236c9d952d0770ae5b7a
+Package: blinka
+Version: 0.3
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 6004
+Depends: make, gcc
+Filename: pool/main/blinka_0.3_all.deb
+Size: 2856564
+MD5sum: 70d92a25e495448831ea772a141ed5f7
+SHA1: 89a533d3756a707dc066c3b19ec199fd762c416d
+SHA256: b3346b1b86f1ec55c6815157c94c83eee9a9e63a83a7b7789240449f18aac623
 Section: free
 Priority: optional
-Description: config.txt for boot
+Description: control the gpio with python
 
 Package: conf-google-pinyin
 Version: 1.0.0
@@ -86,6 +86,34 @@ Section: free
 Priority: optional
 Description: setting autologin user is pi
 
+Package: conf-t527-audio
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 36
+Filename: pool/main/conf-t527-audio_1.0.0_all.deb
+Size: 1198
+MD5sum: 75a0151406b68a0ffccbc50f7ed32001
+SHA1: bb4e1f28dccbc924e44695e32b2e4a94976d93b6
+SHA256: e5f7045c827d31f6ea4e51dff068dcc290db7571ef2319d6e217fa47b6365f19
+Section: free
+Priority: optional
+Description: conf audio
+
+Package: conf-t527-audio
+Version: 1.0.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 36
+Filename: pool/main/conf-t527-audio_1.0.1_all.deb
+Size: 1432
+MD5sum: 3795b15e18c1da769daae517e290371c
+SHA1: c3c2440655102de53e4d341a304225600559cccf
+SHA256: 61d5d787bf93e65387cbefbf3fc15e1a982b8ef29985e93ba809e768922532cd
+Section: free
+Priority: optional
+Description: conf audio
+
 Package: conf-thonny
 Version: 1.0.0
 Architecture: all
@@ -130,6 +158,76 @@ Section: free
 Priority: optional
 Description: enable the eth0 and eth1
 
+Package: configtxt-WalnutPi-1b-v2024.01
+Version: 1.1
+Architecture: arm64
+Maintainer: walnutpi-build
+Installed-Size: 16
+Filename: pool/main/configtxt-WalnutPi-1b-v2024.01_1.1_arm64.deb
+Size: 2524
+MD5sum: 9f3cff84478ccddc6c44b0fcf7f719f4
+SHA1: 92f5420ab4a24012b04786a1cd20e205a61d6073
+SHA256: de3a6ae0c84e60c97f3ff733dff0740a35dd272ad594f645326ffd7542aec4c2
+Section: free
+Priority: optional
+Description: config.txt for boot
+
+Package: cybercam-app-yolo11-cls
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 3120
+Filename: pool/main/cybercam-app-yolo11-cls_1.0.0_all.deb
+Size: 2696660
+MD5sum: fe2370b090128eb059b00fd2969432a2
+SHA1: be49756ad2641a6916f3313f2864da791613fc29
+SHA256: a5ebe41535c220e2d55d28b1ed6f3e3f501621d00a0e104e306964f47ae7e6be
+Section: free
+Priority: optional
+Description: cybercam yolo11-cls demo
+
+Package: cybercam-app-yolo11-det
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 9960
+Filename: pool/main/cybercam-app-yolo11-det_1.0.0_all.deb
+Size: 8458392
+MD5sum: ca65ae7491f708af31ec7c01a54ab2b6
+SHA1: 56a8ce1f30550726a468f90508768385fa2cb412
+SHA256: e395db291dd5ab81c0bf6409ec1892a25a73f2e10ca10195379505fcb5afb8c7
+Section: free
+Priority: optional
+Description: cybercam yolo11-det demo
+
+Package: cybercam-startup
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 8300
+Filename: pool/main/cybercam-startup_1.0.0_all.deb
+Size: 4350118
+MD5sum: ab1d99f390b531e8d2770fbc42edfcb4
+SHA1: 612d94f3dfa21325998376594da3f50a2b6cb071
+SHA256: 9f54f2fcce71f5061e09f8811c2b034b87d049e31453747da3dca208474240cc
+Section: free
+Priority: optional
+Description: k230 cybercam ui
+
+Package: cybercam-usb
+Version: 1.0.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 224
+Filename: pool/main/cybercam-usb_1.0.1_all.deb
+Size: 55050
+MD5sum: e58c0119c4ad56ce8939e3f780b49158
+SHA1: 345a6dce69fdef29b23002ed39194bcf3f09f599
+SHA256: 01c08678eae6fb347f2221b7251f91ec661b18580020fa8fb95bedb0fd97b83c
+Section: free
+Priority: optional
+Description: cybercam umtp service
+
 Package: disable-wifi-random
 Version: 1.0.0
 Architecture: all
@@ -173,6 +271,21 @@ Priority: optional
 Description: fix the systemd-networkd-wait-online.service bug
 
 Package: goodix-ts-auto-rotation
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 36
+Depends: xinput
+Filename: pool/main/goodix-ts-auto-rotation_1.0.0_all.deb
+Size: 1946
+MD5sum: 514134a3d51757d08433cc158bea0b3e
+SHA1: 97d75cad04766f3df5a4c62a8c8036a778b1581a
+SHA256: e2b2644ab8b4da21b76285798b26d68dc597cdea2c020fe9016070ca48751347
+Section: free
+Priority: optional
+Description: Automatic rotation of screen touch direction
+
+Package: goodix-ts-auto-rotation
 Version: 1.1.0
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
@@ -186,6 +299,21 @@ SHA256: 6de483038146a9aa3758f74b27a653a40c509c2fb0a1f1393e36e9e7619b39e2
 Section: free
 Priority: optional
 Description: Automatic rotation of screen touch direction
+
+Package: gpioc
+Version: 1.6.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 2156
+Depends: make, gcc
+Filename: pool/main/gpioc_1.6.0_all.deb
+Size: 697550
+MD5sum: df45358c3a4d73b7be92fdbb158b0ee1
+SHA1: 530108d2203ee82ec704f80ca384a07076b2a4e3
+SHA256: 9de97efcc22b3712a64598c786beadc4b59ca9e30144604a7bde0fe7a754591b
+Section: free
+Priority: optional
+Description: control the gpio
 
 Package: hass-status-led
 Version: 1.1.0
@@ -202,6 +330,20 @@ Section: free
 Priority: optional
 Description: show the hass status on the led
 
+Package: hcitools
+Version: 1.1.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 2364
+Filename: pool/main/hcitools_1.1.0_all.deb
+Size: 964730
+MD5sum: dd7ec38c6ade9b9eedbf8f1013a8ddf7
+SHA1: 1f0738ee93146c29ee4940511f306804c29eba94
+SHA256: a3943304a42c65cc3aadcc43b8116ae2f0841879847847c34e796945aee9d4d0
+Section: free
+Priority: optional
+Description: hcitools is used to control bluetooth
+
 Package: initramfs-tools-hook
 Version: 1.0.0
 Architecture: all
@@ -216,6 +358,49 @@ Section: free
 Priority: optional
 Description: initramfs-tools hooks
 
+Package: k230-alsa-fix
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 4
+Filename: pool/main/k230-alsa-fix_1.0.0_all.deb
+Size: 1184
+MD5sum: fc628a495a5d3676a622f3e8b08411ff
+SHA1: 981df3c77f1475bd039e472bc68d942f1eeff7e8
+SHA256: b3d0d7f08755243c7aa5f1740ce51296e890ddbc5ed34d4082c3f64e5d5e848e
+Section: free
+Priority: optional
+Description: Fix the problem of audio playback failure caused by alsa-utils
+
+Package: k230-display
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 2300
+Depends: make, gcc
+Filename: pool/main/k230-display_1.0.0_all.deb
+Size: 2057116
+MD5sum: 5eddd0f6affbc981d8b6b9697b8dd44d
+SHA1: ef49a121815ea454b9ab0df553f060f74a8e5366
+SHA256: 80d3fb9644f08b948db9961c0522d1eb458e07cc20512ca844f9c1c0eb996c4a
+Section: free
+Priority: optional
+Description: display on k230
+
+Package: k230-ffmpeg
+Version: 4.4.4
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 905844
+Filename: pool/main/k230-ffmpeg_4.4.4_all.deb
+Size: 138678668
+MD5sum: 690b2ddd1ada9df1bdc38687855df8d8
+SHA1: d3c0725f99465970ec9a9b4ee668c8ee193e5d69
+SHA256: e652c0c4d6af55b2518c5bd28232c0a29dd0fdbd770871123038b3ca7878ea83
+Section: free
+Priority: optional
+Description: k230-ffmpeg
+
 Package: map-device
 Version: 0.0.1
 Architecture: all
@@ -229,6 +414,20 @@ SHA256: 920ae419c8d6f8cf2912ef9dd1cd785c4fe2953dd807e1ffb87a1e9480c60d5c
 Section: free
 Priority: optional
 Description: map device
+
+Package: opencv-4.10-python3.13
+Version: 1.0.0
+Architecture: riscv64
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 44172
+Filename: pool/main/opencv-4.10-python3.13_1.0.0_riscv64.deb
+Size: 13222444
+MD5sum: e9fb7c16b0de1a73badba54ecb286a31
+SHA1: 98e7827536fbcfd74b6949285de4697c059cb745
+SHA256: f8c515bc1a7c9c5b978dd23145ffadcb87b8ee246f02e8be60e67f5476decf2f
+Section: free
+Priority: optional
+Description: Precompiled files of
 
 Package: patch-w2b
 Version: 1.0.0
@@ -257,6 +456,20 @@ SHA256: 591d755ed09ede05e31c77b3682f770e88e9f52005e5a0f097fcf8ab78e28c4f
 Section: free
 Priority: optional
 Description: plymouth themes walnutpi
+
+Package: powerdown-key
+Version: 1.1.0
+Architecture: arm64
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 36
+Filename: pool/main/powerdown-key_1.1.0_arm64.deb
+Size: 1182
+MD5sum: deedf0b9724bc0132f2a77279a0a4bb8
+SHA1: 954d56733c765fe9bbf1f02962db2784c2b6eec3
+SHA256: 0506f005aa4275a87bd2fc0fc1612e9694056adff855bfa315c90f12aa733022
+Section: free
+Priority: optional
+Description: Use the walnutpi-1b on-board button as the shutdown button
 
 Package: powerdown-key
 Version: 1.1.1
@@ -315,6 +528,20 @@ Priority: optional
 Description: service, enable the aw859 bluetooth
 
 Package: service-aw869-bluetooth
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 36
+Filename: pool/main/service-aw869-bluetooth_1.0.0_all.deb
+Size: 1064
+MD5sum: 537d9919db42be928f836513830bc695
+SHA1: b5b39a3ed3a74fb4c0ad59d3f8e195d0b83752e0
+SHA256: 2fb5c46ffc0f7eed4e9331661ab3f029a60599bba079c1407a4549b1b88e1872
+Section: free
+Priority: optional
+Description: service, enable the aw869 bluetooth
+
+Package: service-aw869-bluetooth
 Version: 1.0.1
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
@@ -327,6 +554,62 @@ SHA256: 77ba18a084b8ce06337ff7771052901220cb0f3418840a62617a0fac2b52bab7
 Section: free
 Priority: optional
 Description: service, enable the aw869 bluetooth
+
+Package: service-aw869-bluetooth
+Version: 1.1.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 36
+Filename: pool/main/service-aw869-bluetooth_1.1.0_all.deb
+Size: 1170
+MD5sum: 316ec141fb742aa6d1e689340da8a6c0
+SHA1: 4660b3fc62ab8b93cfd7fcedae8500baadcd1770
+SHA256: 14852707c624840a7e778dce59f3ca49ce399ad5eac24119b2d17d826d3b7ced
+Section: free
+Priority: optional
+Description: service, enable the aw869 bluetooth
+
+Package: service-boot-script
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 36
+Filename: pool/main/service-boot-script_1.0.0_all.deb
+Size: 1100
+MD5sum: d0c2742edbeb05d4383f59d0f2e31f74
+SHA1: 58fff4b62880a709cf07cb98590d72f3b7774cb4
+SHA256: 16e8dd54f2392951d13616ec33eada21f8b10c1b54f296cb2cbece5a079dbac0
+Section: free
+Priority: optional
+Description: service,run the scripts when power on
+
+Package: service-boot-script
+Version: 1.1.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 36
+Filename: pool/main/service-boot-script_1.1.0_all.deb
+Size: 1196
+MD5sum: 9a4fa735488f69c38d1e22cf24350672
+SHA1: d62872a8719ecdb3a2cb047cef08cdb4149d9a4b
+SHA256: 4bfa5a03448fe65eb83ff158204355be4a48f9f6b2616f4749399c8430e3bbc2
+Section: free
+Priority: optional
+Description: service,run the scripts when power on
+
+Package: service-boot-script
+Version: 1.1.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 36
+Filename: pool/main/service-boot-script_1.1.1_all.deb
+Size: 1200
+MD5sum: 55a474780fe75e51471159f956ce7027
+SHA1: 4a419ee75f8f7e3c0a67c5c41ce34113dfb84fe6
+SHA256: 7e11b2c3fff213af53352441facacd16b9919e1c40c729760fd5697d02f0315e
+Section: free
+Priority: optional
+Description: service,run the scripts when power on
 
 Package: service-boot-script
 Version: 1.2.0
@@ -385,6 +668,20 @@ Priority: optional
 Description: service, modify the thermal_zon trips
 
 Package: service-h616-mac-detect
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 36
+Filename: pool/main/service-h616-mac-detect_1.0.0_all.deb
+Size: 1396
+MD5sum: 13601ac93c014e2615960b6b468a9bb7
+SHA1: 1d1b6431feec0b542f81c0f1e90df7ddf46de63e
+SHA256: b657cc7490fa822955d70920c9dd2b52a9d13b9c1c163812a69bb9291d5c9907
+Section: free
+Priority: optional
+Description: service, keep the ac200 mac same as chip generate
+
+Package: service-h616-mac-detect
 Version: 1.0.1
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
@@ -397,6 +694,48 @@ SHA256: 259a4faa66418d59ac160c4dd9b0219ae9c8faf317e39a48639e9e49e1fb1fa5
 Section: free
 Priority: optional
 Description: service, keep the ac200 mac same as chip generate
+
+Package: service-k230-isp-media
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 12736
+Filename: pool/main/service-k230-isp-media_1.0.0_all.deb
+Size: 4211676
+MD5sum: 8792ab1b6d46b6deba8e2162967bbbef
+SHA1: 3a283e8d92bb98fdcb33c7b83bbd132c892feb17
+SHA256: 13cfc808fe4f3a01b741e17e625ca42ed6e42fbbb9e50abd4888bdbf0226c5cd
+Section: free
+Priority: optional
+Description: service, enable isp_media_server
+
+Package: service-resize-part
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 36
+Filename: pool/main/service-resize-part_1.0.0_all.deb
+Size: 1112
+MD5sum: 699c580cd572b18b816b8084ea349341
+SHA1: b5613bae7e5715d6b8a7e55193faf9a86140344d
+SHA256: 1f059b13c018cf63e9582b7e24eeb5dfc0c4f9a5d5e86dc5df38a5b21f17eb72
+Section: free
+Priority: optional
+Description: service,extend the part size at first boot
+
+Package: service-resize-part
+Version: 1.0.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 36
+Filename: pool/main/service-resize-part_1.0.1_all.deb
+Size: 1116
+MD5sum: 188dc3d23c35970f7ada27f8a69442c5
+SHA1: 580ee4bb6f941791b5cd371f8f9f0bb7281df027
+SHA256: 57e3aa6f36aaa340b64faa61f63554bd1da92329e237d5369164d485af2af190
+Section: free
+Priority: optional
+Description: service,extend the part size at first boot
 
 Package: service-resize-part
 Version: 1.0.2
@@ -455,6 +794,34 @@ Priority: optional
 Description: service, Turn off the led when the cable is not inserted
 
 Package: set-device
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 28
+Filename: pool/main/set-device_1.0.0_all.deb
+Size: 1626
+MD5sum: 3f032d898bcbe1f97216e98e101fa15d
+SHA1: e33eeb8acbf682ea1d34f89d03301740456cbe2b
+SHA256: 749fa40cd653180a0d1a3b40c83aa42be7bb820e2721e3be75855d0630d70f99
+Section: free
+Priority: optional
+Description: Modifying the /boot/config.txt file about overlays
+
+Package: set-device
+Version: 1.1.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 28
+Filename: pool/main/set-device_1.1.0_all.deb
+Size: 2394
+MD5sum: e74487560e622cca8a133890fa7b512e
+SHA1: 54b27c6642a0360346c893d8157af04fb081dc07
+SHA256: 4a58ad2cec773acfb1badb584a45755566c34632c4f1fbd9b041ea92398d5425
+Section: free
+Priority: optional
+Description: Modifying the /boot/config.txt file about overlays
+
+Package: set-device
 Version: 1.1.1
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
@@ -467,6 +834,48 @@ SHA256: f1bcffd2d349689c46007039f3fc7228293cde9d0c17dcf96b99012faa2cd5d0
 Section: free
 Priority: optional
 Description: Modifying the /boot/config.txt file about overlays
+
+Package: set-emmc
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 28
+Filename: pool/main/set-emmc_1.0.0_all.deb
+Size: 2102
+MD5sum: e32f32c9c978b9a84dc9da52cdc03471
+SHA1: fbf325269ff2ba2d52bea78753a46110c67c834a
+SHA256: f79f1e6909773d6a4255ff76e50df3ab60a0daf9e789f02107215933578f9f31
+Section: free
+Priority: optional
+Description: set-emmc command
+
+Package: set-emmc
+Version: 1.0.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 32
+Filename: pool/main/set-emmc_1.0.1_all.deb
+Size: 2378
+MD5sum: 03972929c1e631cff04b78234cbbea4b
+SHA1: 7df4f19798e505edca12fcaddd3e08be29847735
+SHA256: 4c74eaa187340453a65e7c8418a9ddd602f53d5a0671cd79fbcccc55d931b4ff
+Section: free
+Priority: optional
+Description: set-emmc command
+
+Package: set-emmc
+Version: 1.0.2
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 32
+Filename: pool/main/set-emmc_1.0.2_all.deb
+Size: 2566
+MD5sum: da60ae8b9db33a5821d2a62235833da7
+SHA1: 2f281624bcb5e02fe61d2feb3188a28d5869d1f4
+SHA256: b2ea112d9be8e3eb29baa5e4d94410ca737cc342fdd24f8cabdeabcb92ebd4f9
+Section: free
+Priority: optional
+Description: set-emmc command
 
 Package: set-emmc
 Version: 1.1.0
@@ -498,6 +907,20 @@ Priority: optional
 Description: set-emmc command
 
 Package: set-language
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 28
+Filename: pool/main/set-language_1.0.0_all.deb
+Size: 1750
+MD5sum: 188482c193855c42481bf206ad304a17
+SHA1: ef04a7cc46b4eebb4891a2302eb77994dfaf24a8
+SHA256: e2923e401c087bfb0ea49893fdd01f97afcd029ff1ca09425f3cdf1e3c873653
+Section: free
+Priority: optional
+Description: Configuration language
+
+Package: set-language
 Version: 1.0.1
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
@@ -511,6 +934,146 @@ Section: free
 Priority: optional
 Description: Configuration language
 
+Package: set-language
+Version: 1.1.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 28
+Filename: pool/main/set-language_1.1.0_all.deb
+Size: 2084
+MD5sum: 22ccda3bfbb5b90e3cb32dfeb40750f3
+SHA1: 62ef28461ce226d1facdad5f85d66236966e7058
+SHA256: 1b8afff040197a931b155bef5ced1dcb791e96b6df2c6e2eec82fe2e37e37325
+Section: free
+Priority: optional
+Description: Configuration language
+
+Package: set-lcd
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 812
+Filename: pool/main/set-lcd_1.0.0_all.deb
+Size: 171170
+MD5sum: 0e034437f5d88c575a7fd2e943f5b156
+SHA1: e40d87fd192e1dc5328580f9e2bc2d1fcfc37427
+SHA256: e3821c106912ec8c961f54897860f1d100d55ae5d3d2dfdf2455da13a6ee4dbc
+Section: free
+Priority: optional
+Description: Configuration lcd
+
+Package: set-lcd
+Version: 1.1.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 1124
+Filename: pool/main/set-lcd_1.1.0_all.deb
+Size: 196996
+MD5sum: 5d947ed4202f9421fa2e03984ad78875
+SHA1: bdd964e522c0b8be1866ac406de95dbfae26d4fe
+SHA256: 48de9c1c68e65f06e01849d05d7f1f39e2ab712afbc77b76f3d187612efede0a
+Section: free
+Priority: optional
+Description: Configuration lcd
+
+Package: set-lcd
+Version: 1.1.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 868
+Filename: pool/main/set-lcd_1.1.1_all.deb
+Size: 207630
+MD5sum: 86f065cb3f87ab414e94a4624bde4d98
+SHA1: ace63ac1d27117407c4e360610d4f118a60dd88e
+SHA256: 00f0e2d96be60ff9e72ccea2cbc6764aefdc59bec514034410f0cdd90eff1ad6
+Section: free
+Priority: optional
+Description: Configuration lcd
+
+Package: set-lcd
+Version: 1.1.2
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 992
+Filename: pool/main/set-lcd_1.1.2_all.deb
+Size: 215142
+MD5sum: 040e4485bb6d240efb144b344dd047ef
+SHA1: 8733e0d2c5b5abab33d1013598b45ad63f4d92b6
+SHA256: 3bf8a212380a9d753eb05500f30e6b002562452dca7fecc4c3627d130d207a69
+Section: free
+Priority: optional
+Description: Configuration lcd
+
+Package: set-lcd
+Version: 1.1.3
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 1056
+Filename: pool/main/set-lcd_1.1.3_all.deb
+Size: 218618
+MD5sum: e1f146effa53c3f12917a4c96cb51a6e
+SHA1: 2e87fe9126d9c7f74ce04495173367a10e9b761b
+SHA256: 21903954ea181fac1b0c08186678a202c0e7522bf15f1dacdce669579c60e05e
+Section: free
+Priority: optional
+Description: Configuration lcd
+
+Package: set-lcd
+Version: 1.1.4
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 1176
+Filename: pool/main/set-lcd_1.1.4_all.deb
+Size: 234802
+MD5sum: 7c65e6befc35723759bd4907dfd7c2f3
+SHA1: 6cae44953b9daf6c0a84921b5f82d478bffb36e1
+SHA256: b3496735c5e631a2544bd41f8861d9ab74a46e6800a043a71d98892f07854784
+Section: free
+Priority: optional
+Description: Configuration lcd
+
+Package: set-lcd
+Version: 1.2.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 1688
+Filename: pool/main/set-lcd_1.2.0_all.deb
+Size: 267530
+MD5sum: 340d9d5aeb80ae9f29512f76d832fbec
+SHA1: 7c9c6751ffd46f73d2c082f2fd724561166245a1
+SHA256: 4f01f832eb8fc4c3d8d96b2b9b5b502127bc09702f10c5aa1ab5b520c8a749b5
+Section: free
+Priority: optional
+Description: Configuration lcd
+
+Package: set-lcd
+Version: 1.3.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 2208
+Filename: pool/main/set-lcd_1.3.0_all.deb
+Size: 370848
+MD5sum: 1fc884edc8bf6b36d102e65e255b8a94
+SHA1: 407e90ecdbab269baf2e8621a6679cda457e9193
+SHA256: 13ac78d799f1ee7883fab1d9c16fdc341c6e73614ba23e751ad70b5df8599596
+Section: free
+Priority: optional
+Description: Configuration lcd
+
+Package: set-lcd
+Version: 1.4.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 2232
+Filename: pool/main/set-lcd_1.4.0_all.deb
+Size: 418332
+MD5sum: e4025c1558310730a0a5da084efc474f
+SHA1: 2a6d1e42109f9eaa635ca258dcf005b22f93a12c
+SHA256: 0b2e4d5b670d03d498429eafd4cec8619298817e5be716819f9912ac12d01700
+Section: free
+Priority: optional
+Description: Configuration lcd
+
 Package: set-lcd
 Version: 1.5.0
 Architecture: all
@@ -521,6 +1084,34 @@ Size: 433058
 MD5sum: 4541ea534f82674f261a93003b7e620e
 SHA1: ab24b02661e2a2c4221d68b5741d3b8d6f380ac3
 SHA256: b7c3f02c2a92e71c8c3cff0f788e0322337bf53bc478a413b2372e4ea4e4e91e
+Section: free
+Priority: optional
+Description: Configuration lcd
+
+Package: set-lcd
+Version: 1.6.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 2828
+Filename: pool/main/set-lcd_1.6.0_all.deb
+Size: 502950
+MD5sum: 5c2a85571e6360062ff409e287b77ba1
+SHA1: 8a347bf7f252c72258ba933a5d62d877dbf6f323
+SHA256: 0d4605ab9a0d02aafb12fdd030eca62c95fb7fbc13c6e576675af56d2b62f2e4
+Section: free
+Priority: optional
+Description: Configuration lcd
+
+Package: set-lcd
+Version: 1.6.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 2828
+Filename: pool/main/set-lcd_1.6.1_all.deb
+Size: 502940
+MD5sum: f2d4a08c0815c917eeca55bb63dff3dd
+SHA1: 579ea05f2374793933173eeb128cdfb1879282e9
+SHA256: 81a7970773118ed56e0c4894f0ced27b466a4347770b7271898a72c0eb8e4ccb
 Section: free
 Priority: optional
 Description: Configuration lcd
@@ -540,6 +1131,20 @@ Priority: optional
 Description: set-nvme command
 
 Package: set-vnc
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 44
+Filename: pool/main/set-vnc_1.0.0_all.deb
+Size: 1744
+MD5sum: 279beaef9ebb7c55e5f64c605887e0be
+SHA1: b79cbbd869db8c74c0da2e6a2431f82ef1efb649
+SHA256: ff88e173c814096de933d81c10e26fc9d667666fc503de35abf019ef32b32646
+Section: free
+Priority: optional
+Description: Configuration x11 vnc server
+
+Package: set-vnc
 Version: 1.0.1
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
@@ -552,6 +1157,92 @@ SHA256: 97f262622e7a9efec3b5f544cda174478365a5bfda9f2ab404138bac55003691
 Section: free
 Priority: optional
 Description: Configuration x11 vnc server
+
+Package: t527-fbdev
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 24
+Filename: pool/main/t527-fbdev_1.0.0_all.deb
+Size: 670
+MD5sum: e4beb60d60d2b78f18514cde1949b672
+SHA1: 9c8cfe4c13820b6d463a5f85f302b6d5ed8149c1
+SHA256: 1e310b999b1fe77772d2d004ffc2b291cb4cf69186a3813f9d1d4a3b1ecb279e
+Section: free
+Priority: optional
+Description: set xorg use fbdev
+
+Package: t527-fbdev
+Version: 1.0.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 24
+Filename: pool/main/t527-fbdev_1.0.1_all.deb
+Size: 668
+MD5sum: 52c9f99abd1644354072e124144b2fc7
+SHA1: ddb489253f6aa799c78b8864b31979fa1005a856
+SHA256: 93a9b79784aefacbbfd12a785e87b0acc9fa4eebd7aaaac51a88661eb5427111
+Section: free
+Priority: optional
+Description: set xorg use fbdev
+
+Package: walnutpi.kpu
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 12112
+Filename: pool/main/walnutpi.kpu_1.0.0_all.deb
+Size: 5383748
+MD5sum: fbb5dfe3f7fe484603fd4985ecca6d70
+SHA1: bc3f73d7bb183d10ffcd7e5192d3664b9e19556e
+SHA256: f21e393d2d0ecd5e2f13ebc6ef99a9180d09180de7f8eb4ade6b2aa2d8be8a5c
+Section: free
+Priority: optional
+Description: a python lib to control k230 kpu
+
+Package: walnutpi.lib
+Version: 1.1.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 228
+Filename: pool/main/walnutpi.lib_1.1.0_all.deb
+Size: 18100
+MD5sum: d9f440a431ecc52c4d932b2af7da9286
+SHA1: c7d0850f88b9a0627c0c0075995c96e18f779665
+SHA256: 66a7f8833099ad68328d9841288556a0b5869b741639f2fecb0101ed2acf2611
+Section: free
+Priority: optional
+Description: a python lib to import all lib about walnutpi
+
+Package: walnutpi1b-base
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 4
+Depends: wpi-user, wpi-host-name, wpi-welcome-info, wpi-lightdm,
+  walnutpi-lib,
+  conf-h616-audio,
+  conf-qtenv,
+  enable-ssh-root,
+  disable-wifi-random,
+  set-device,
+  set-language,
+  set-lcd,
+  pyuic,
+  python3-sudo,
+  hcitools,
+  service-disable-fbcon,
+  service-h616-mac-detect,
+  service-resize-part,
+  service-aw859-bluetooth
+Filename: pool/main/walnutpi1b-base_1.0.0_all.deb
+Size: 698
+MD5sum: a3a867220bc64010e42cf66fb27ae8f0
+SHA1: 8653767c76d438e9912d8c7224bb36f2685376c8
+SHA256: e7d6ee6ab287586de571b300a93c2a534f961efda104b17f257be5ee0a8f145a
+Section: free
+Priority: optional
+Description: walnutpi 1b base
 
 Package: walnutpi1b-base
 Version: 1.0.1
@@ -605,6 +1296,76 @@ Priority: optional
 Description: walnutpi 1b desktop
 
 Package: walnutpi1b-patch
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 224
+Filename: pool/main/walnutpi1b-patch_1.0.0_all.deb
+Size: 47018
+MD5sum: 4c110e80be1a26765a040eda1ab88e6b
+SHA1: d9df6b22c9e524e7623e3e844f259ff6d15b8f41
+SHA256: 7ecd14d53baab93268361cda5be34e75fbd1cfb9301bf79da204c9c50d17ccf8
+Section: free
+Priority: optional
+Description: walnutpi1b patch
+
+Package: walnutpi1b-patch
+Version: 1.0.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 264
+Filename: pool/main/walnutpi1b-patch_1.0.1_all.deb
+Size: 55766
+MD5sum: 2bb4f4520b7778beab2938c3bae576cd
+SHA1: c5af135d864df8ddfb287a14906d549aef48420e
+SHA256: 3d4aa09bbda7f18530762905f4d0f40053e52282ec6063b63e81c6ca557a03e5
+Section: free
+Priority: optional
+Description: walnutpi1b patch
+
+Package: walnutpi1b-patch
+Version: 1.0.2
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 264
+Filename: pool/main/walnutpi1b-patch_1.0.2_all.deb
+Size: 55794
+MD5sum: e0e56c9d42587f1f8a3fb962f7696c26
+SHA1: 250d940efaebd36b31b228ce1176cef9a218c286
+SHA256: 12a82281cf00f7f414992a1d24440a8fc87645bb59fe7e4747fb329116ff86f9
+Section: free
+Priority: optional
+Description: walnutpi1b patch
+
+Package: walnutpi1b-patch
+Version: 1.0.3
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 264
+Filename: pool/main/walnutpi1b-patch_1.0.3_all.deb
+Size: 55826
+MD5sum: 77848e36c23d2aefbc78f2443182137a
+SHA1: f2fd922b11dd61b6b1066c6b3f847f0cf4631636
+SHA256: 4795bae39f056cd6ceefbeb8c0b9ec4ed77d52082d7050cda1c9acbc239245fd
+Section: free
+Priority: optional
+Description: walnutpi1b patch
+
+Package: walnutpi1b-patch
+Version: 1.0.4
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 304
+Filename: pool/main/walnutpi1b-patch_1.0.4_all.deb
+Size: 56280
+MD5sum: a98c636f7563c22350f52eb474e6dc80
+SHA1: a586d637323f623f067125a571929b3e3f997054
+SHA256: 50a040e5c632484be5c6f42fa6cc3b1051b0b7d5ebb55cf7c29686946d8fc227
+Section: free
+Priority: optional
+Description: walnutpi1b patch
+
+Package: walnutpi1b-patch
 Version: 1.0.5
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
@@ -618,6 +1379,21 @@ SHA256: 4b6b6b45849522f058a5113da18ca6a8fa83f51343f9cedd5ce03c747fd6e638
 Section: free
 Priority: optional
 Description: walnutpi1b patch
+
+Package: wpi-chromium
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 32
+Depends: chromium
+Filename: pool/main/wpi-chromium_1.0.0_all.deb
+Size: 2066
+MD5sum: 2f5a13b77562d7333fabd98503f2d0f3
+SHA1: 31bc788982de8f068351c8ad9c2e36a16d72c288
+SHA256: 8c6ddf0a29fb97bc51339434b4cf7151e74092058532ddbee64e0dd32d795aed
+Section: free
+Priority: optional
+Description: walnutpi chromium conf
 
 Package: wpi-chromium
 Version: 1.0.1
@@ -649,6 +1425,21 @@ Priority: optional
 Description: Modifying the host name
 
 Package: wpi-lightdm
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 32
+Depends: wpi-user,lightdm
+Filename: pool/main/wpi-lightdm_1.0.0_all.deb
+Size: 1118
+MD5sum: b0442c88c5f88681c7c9553fcab79aa7
+SHA1: 426bd886559ac53f7060ac3729349e63ff34e629
+SHA256: 0f66a4fec8bb428761a333efe2e07c39cf1468f0ce56cf394019c013d968326e
+Section: free
+Priority: optional
+Description: setting the lightdm autologin as pi.run ternimal in server
+
+Package: wpi-lightdm
 Version: 1.0.1
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
@@ -662,6 +1453,34 @@ SHA256: e51310f6feafb9e4dfdc45e50b246c53698852172b1f1976b6ad08a176798da5
 Section: free
 Priority: optional
 Description: setting the lightdm autologin as pi.run ternimal in server
+
+Package: wpi-user
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 48
+Filename: pool/main/wpi-user_1.0.0_all.deb
+Size: 2846
+MD5sum: 5f36d486fcbf56c895a7ab6d4402839e
+SHA1: 680ec64297f26d7c98f91d13604b34acb739fc6f
+SHA256: 9e04e385df64dcec9e817477ecad32f41145c3d7b25f1fbe22c6ec624f02eb11
+Section: free
+Priority: optional
+Description: walnutpi user setting
+
+Package: wpi-user
+Version: 1.0.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 56
+Filename: pool/main/wpi-user_1.0.1_all.deb
+Size: 3104
+MD5sum: 5e75e8e0b2cfd663a4d3c7ba585e603d
+SHA1: b354ed04bc3dfd3c461141c2c1b25623ed97a215
+SHA256: 95dae27025aeefe34140e656dde00201246559fe57e52ae172a1e5f7a8b644c5
+Section: free
+Priority: optional
+Description: walnutpi user setting
 
 Package: wpi-user
 Version: 1.0.2
@@ -691,6 +1510,21 @@ SHA256: bce35751df6c1028cc6c879c79e27e65865e5d1a1fc6f7a33f4c0c9b56f99bfa
 Section: free
 Priority: optional
 Description: the welcome info
+
+Package: wpi-xfce4
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 1416
+Depends: xfce4, thonny
+Filename: pool/main/wpi-xfce4_1.0.0_all.deb
+Size: 687312
+MD5sum: d0dc3fde5645da12e85cb4491e2b7d93
+SHA1: 21176a0b688476af9905edeeaa00d4d788a91526
+SHA256: d2478df1058a74e874c359162f3afa91031f329269407c8c483de49029c1ed2c
+Section: free
+Priority: optional
+Description: xfce4 conf
 
 Package: wpi-xfce4
 Version: 1.0.1

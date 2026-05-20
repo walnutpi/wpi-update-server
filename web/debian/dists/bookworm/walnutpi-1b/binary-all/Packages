@@ -5,10 +5,10 @@ Architecture: arm64
 Maintainer: walnutpi-build
 Installed-Size: 16
 Filename: pool/main/configtxt-WalnutPi-1b-v2024.01_1.1_arm64.deb
-Size: 1390
-MD5sum: 9c1195be43e1be6e13f6ae66abd39794
-SHA1: be543d51af01933b225fc9c006cdee7098d464a6
-SHA256: 444cb5ff1d6f22a6b6ce82ecd31ce06ee0cbd9ea7ece236c9d952d0770ae5b7a
+Size: 2524
+MD5sum: 9f3cff84478ccddc6c44b0fcf7f719f4
+SHA1: 92f5420ab4a24012b04786a1cd20e205a61d6073
+SHA256: de3a6ae0c84e60c97f3ff733dff0740a35dd272ad594f645326ffd7542aec4c2
 Section: free
 Priority: optional
 Description: config.txt for boot
@@ -521,6 +521,20 @@ Size: 433058
 MD5sum: 4541ea534f82674f261a93003b7e620e
 SHA1: ab24b02661e2a2c4221d68b5741d3b8d6f380ac3
 SHA256: b7c3f02c2a92e71c8c3cff0f788e0322337bf53bc478a413b2372e4ea4e4e91e
+Section: free
+Priority: optional
+Description: Configuration lcd
+
+Package: set-lcd
+Version: 1.6.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 2828
+Filename: pool/main/set-lcd_1.6.1_all.deb
+Size: 502940
+MD5sum: f2d4a08c0815c917eeca55bb63dff3dd
+SHA1: 579ea05f2374793933173eeb128cdfb1879282e9
+SHA256: 81a7970773118ed56e0c4894f0ced27b466a4347770b7271898a72c0eb8e4ccb
 Section: free
 Priority: optional
 Description: Configuration lcd
