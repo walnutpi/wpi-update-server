@@ -2,13 +2,13 @@ Package: blinka
 Version: 0.3
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 6004
+Installed-Size: 6092
 Depends: make, gcc
 Filename: pool/main/blinka_0.3_all.deb
-Size: 2856564
-MD5sum: 70d92a25e495448831ea772a141ed5f7
-SHA1: 89a533d3756a707dc066c3b19ec199fd762c416d
-SHA256: b3346b1b86f1ec55c6815157c94c83eee9a9e63a83a7b7789240449f18aac623
+Size: 2862630
+MD5sum: 1722775105b69e26066163dea0c9a4fc
+SHA1: faa4a11ceafd8e617d8b25b48359af02de1b5a4d
+SHA256: 26bd4332f1ee08d0a30cd83f42f305b1ab5b276d73498da16e68e776983763cf
 Section: free
 Priority: optional
 Description: control the gpio with python
@@ -172,61 +172,76 @@ Section: free
 Priority: optional
 Description: config.txt for boot
 
-Package: cybercam-app-yolo11-cls
+Package: cybercam-apps
 Version: 1.0.0
 Architecture: all
-Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 3120
-Filename: pool/main/cybercam-app-yolo11-cls_1.0.0_all.deb
-Size: 2696660
-MD5sum: fe2370b090128eb059b00fd2969432a2
-SHA1: be49756ad2641a6916f3313f2864da791613fc29
-SHA256: a5ebe41535c220e2d55d28b1ed6f3e3f501621d00a0e104e306964f47ae7e6be
+Maintainer: 01studio
+Installed-Size: 93004
+Filename: pool/main/cybercam-apps_1.0.0_all.deb
+Size: 31808264
+MD5sum: 6dd8090b5a219a795a2430b6e1029bdb
+SHA1: 1b3e2d116b444f79f60e4e9b31a8e644a830bb1f
+SHA256: acf752d0b70f897bbf28bbef73073e5447d2cb1d3e297b2770408712c8d1bd5d
 Section: free
 Priority: optional
-Description: cybercam yolo11-cls demo
+Description: cybercam apps
 
-Package: cybercam-app-yolo11-det
+Package: cybercam-desktop
 Version: 1.0.0
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 9960
-Filename: pool/main/cybercam-app-yolo11-det_1.0.0_all.deb
-Size: 8458392
-MD5sum: ca65ae7491f708af31ec7c01a54ab2b6
-SHA1: 56a8ce1f30550726a468f90508768385fa2cb412
-SHA256: e395db291dd5ab81c0bf6409ec1892a25a73f2e10ca10195379505fcb5afb8c7
-Section: free
-Priority: optional
-Description: cybercam yolo11-det demo
-
-Package: cybercam-startup
-Version: 1.0.0
-Architecture: all
-Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 8300
-Filename: pool/main/cybercam-startup_1.0.0_all.deb
-Size: 4350118
-MD5sum: ab1d99f390b531e8d2770fbc42edfcb4
-SHA1: 612d94f3dfa21325998376594da3f50a2b6cb071
-SHA256: 9f54f2fcce71f5061e09f8811c2b034b87d049e31453747da3dca208474240cc
+Installed-Size: 13756
+Filename: pool/main/cybercam-desktop_1.0.0_all.deb
+Size: 6694376
+MD5sum: a56ead6f576bd3171f90bd996a015e1f
+SHA1: 911180ff0dfd7d5dabcf9a9428bf4ba146e45234
+SHA256: 03d972e7fd65811a67f90895d459a6a34dc8ea516258804776eedc97edcdb6cc
 Section: free
 Priority: optional
 Description: k230 cybercam ui
+
+Package: cybercam-map-device
+Version: 0.0.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 7624
+Filename: pool/main/cybercam-map-device_0.0.1_all.deb
+Size: 7689642
+MD5sum: 359f0c709bc4ee10cb0b85e5ff9d6b9b
+SHA1: a2ddbf32096a73dc6c217c5a7fd09560ccf8f5e8
+SHA256: dca591fc6f2d278bd0311db03cc8b715e6b0bc6314e5f22b731166a0ae460bad
+Section: free
+Priority: optional
+Description: cybercam map device
 
 Package: cybercam-usb
 Version: 1.0.1
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 224
+Installed-Size: 688
 Filename: pool/main/cybercam-usb_1.0.1_all.deb
-Size: 55050
-MD5sum: e58c0119c4ad56ce8939e3f780b49158
-SHA1: 345a6dce69fdef29b23002ed39194bcf3f09f599
-SHA256: 01c08678eae6fb347f2221b7251f91ec661b18580020fa8fb95bedb0fd97b83c
+Size: 309128
+MD5sum: beb0f26507d77ec33382dffd4631c5be
+SHA1: 4106a7948bf61a118f8d6eb9b4fb2aed8c999efb
+SHA256: 32ec5d39ebbb8cf602ffbb4e68a5507b6105d83ab4f206c5c67bfd08a9bb5ad5
 Section: free
 Priority: optional
 Description: cybercam umtp service
+
+Package: cybercam-usb-worker
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 79592
+Depends: netplan.io
+Filename: pool/main/cybercam-usb-worker_1.0.0_all.deb
+Size: 18773404
+MD5sum: b497c03132bd2b1da22148a5c6da6cdd
+SHA1: cd492066206c128f21be2012e97524c45cb849b4
+SHA256: d81259a70dbf20e8a2339a8b8e0efbad2da2466a04a9b30e169c8c6010ccc486
+Section: free
+Priority: optional
+Description: USB CDC ACM serial communication worker for CyberCam
 
 Package: disable-wifi-random
 Version: 1.0.0
@@ -304,13 +319,13 @@ Package: gpioc
 Version: 1.6.0
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 2156
+Installed-Size: 2272
 Depends: make, gcc
 Filename: pool/main/gpioc_1.6.0_all.deb
-Size: 697550
-MD5sum: df45358c3a4d73b7be92fdbb158b0ee1
-SHA1: 530108d2203ee82ec704f80ca384a07076b2a4e3
-SHA256: 9de97efcc22b3712a64598c786beadc4b59ca9e30144604a7bde0fe7a754591b
+Size: 716008
+MD5sum: 4bcac2dddddd15ebb096a11822245248
+SHA1: 8201aef531afb9a81522500cfbc32774c983a285
+SHA256: ea781482595b31adc63f863378314e19da9cebfd51993761748aa48fc54f6728
 Section: free
 Priority: optional
 Description: control the gpio
@@ -359,30 +374,30 @@ Priority: optional
 Description: initramfs-tools hooks
 
 Package: k230-alsa-fix
-Version: 1.0.0
+Version: 1.1.0
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 4
-Filename: pool/main/k230-alsa-fix_1.0.0_all.deb
-Size: 1184
-MD5sum: fc628a495a5d3676a622f3e8b08411ff
-SHA1: 981df3c77f1475bd039e472bc68d942f1eeff7e8
-SHA256: b3d0d7f08755243c7aa5f1740ce51296e890ddbc5ed34d4082c3f64e5d5e848e
+Installed-Size: 36
+Filename: pool/main/k230-alsa-fix_1.1.0_all.deb
+Size: 1542
+MD5sum: 90b0c0d89d52971f25bdc1792cae6f9b
+SHA1: 4f28c16421994017e3e9b1641bb32ca6e0f86e37
+SHA256: 31f2856484be32d60caea4e3a5e808ab9c1436fef1b943f7b5ca7c493e0abe88
 Section: free
 Priority: optional
-Description: Fix the problem of audio playback failure caused by alsa-utils
+Description: Fix alsa audio issues on K230: mask alsactl and set PCM volume to 73% on boot
 
 Package: k230-display
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 2300
+Installed-Size: 1164
 Depends: make, gcc
-Filename: pool/main/k230-display_1.0.0_all.deb
-Size: 2057116
-MD5sum: 5eddd0f6affbc981d8b6b9697b8dd44d
-SHA1: ef49a121815ea454b9ab0df553f060f74a8e5366
-SHA256: 80d3fb9644f08b948db9961c0522d1eb458e07cc20512ca844f9c1c0eb996c4a
+Filename: pool/main/k230-display_1.0.1_all.deb
+Size: 222062
+MD5sum: 710bac79f07596cc3eafd4bec9f5fdbe
+SHA1: a41740465d7adbfaddcb5c953a783a9524e6fdac
+SHA256: 99c8fa61f8e07e4810e124754dc5d06945893252a90c45bcd955628d3e818af1
 Section: free
 Priority: optional
 Description: display on k230
@@ -391,12 +406,12 @@ Package: k230-ffmpeg
 Version: 4.4.4
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 905844
+Installed-Size: 905872
 Filename: pool/main/k230-ffmpeg_4.4.4_all.deb
-Size: 138678668
-MD5sum: 690b2ddd1ada9df1bdc38687855df8d8
-SHA1: d3c0725f99465970ec9a9b4ee668c8ee193e5d69
-SHA256: e652c0c4d6af55b2518c5bd28232c0a29dd0fdbd770871123038b3ca7878ea83
+Size: 138407134
+MD5sum: 7229123c2610f8e7580ccece24fc8a5c
+SHA1: febef0d5791c6fdca6c06146bb446e0cb8b386e2
+SHA256: 5f626f86d9625214ea7f874d102fdb0548f0a8030501e64dfacdaac8d8bcef91
 Section: free
 Priority: optional
 Description: k230-ffmpeg
@@ -419,12 +434,12 @@ Package: opencv-4.10-python3.13
 Version: 1.0.0
 Architecture: riscv64
 Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 44172
+Installed-Size: 63184
 Filename: pool/main/opencv-4.10-python3.13_1.0.0_riscv64.deb
-Size: 13222444
-MD5sum: e9fb7c16b0de1a73badba54ecb286a31
-SHA1: 98e7827536fbcfd74b6949285de4697c059cb745
-SHA256: f8c515bc1a7c9c5b978dd23145ffadcb87b8ee246f02e8be60e67f5476decf2f
+Size: 21346656
+MD5sum: c6b9e41a6b46d16098ac868af9b0e53d
+SHA1: 119f16373d49a632ce02a5af081f9cf30e68a82e
+SHA256: 210b4bfa6a7296662ae6e3b57d842818032a424cfd9550e8fda7d6ac138de5af
 Section: free
 Priority: optional
 Description: Precompiled files of
@@ -653,6 +668,20 @@ Section: free
 Priority: optional
 Description: service, disable the frmebuf console when config.txt has keyword
 
+Package: service-disable-fbcon
+Version: 1.1.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 36
+Filename: pool/main/service-disable-fbcon_1.1.1_all.deb
+Size: 1610
+MD5sum: cba2fe7976efb82905249ab4fb42c586
+SHA1: 46e803b40da57d851d2d5a0201161f0b87586c85
+SHA256: 7952040baf2b51ef338c4e947ea5e8f844ad4f23806415c1e7da7773b4010723
+Section: free
+Priority: optional
+Description: service, disable the frmebuf console when config.txt has keyword
+
 Package: service-h616-conf-thermal-trip
 Version: 1.0.
 Architecture: all
@@ -696,15 +725,15 @@ Priority: optional
 Description: service, keep the ac200 mac same as chip generate
 
 Package: service-k230-isp-media
-Version: 1.0.0
+Version: 1.1.0
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 12736
-Filename: pool/main/service-k230-isp-media_1.0.0_all.deb
-Size: 4211676
-MD5sum: 8792ab1b6d46b6deba8e2162967bbbef
-SHA1: 3a283e8d92bb98fdcb33c7b83bbd132c892feb17
-SHA256: 13cfc808fe4f3a01b741e17e625ca42ed6e42fbbb9e50abd4888bdbf0226c5cd
+Installed-Size: 9116
+Filename: pool/main/service-k230-isp-media_1.1.0_all.deb
+Size: 3160158
+MD5sum: 1fa49c1a0146b530df1f0748d9f94382
+SHA1: decd675dae63b6bf955f63e4cedcdcf29346d7c0
+SHA256: 62065971f1913ddb4fbe3810ae865f6f62e38ed2ccade3a55628ac745eb7abb7
 Section: free
 Priority: optional
 Description: service, enable isp_media_server
@@ -834,6 +863,20 @@ SHA256: f1bcffd2d349689c46007039f3fc7228293cde9d0c17dcf96b99012faa2cd5d0
 Section: free
 Priority: optional
 Description: Modifying the /boot/config.txt file about overlays
+
+Package: set-device
+Version: 2.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 32
+Filename: pool/main/set-device_2.0.0_all.deb
+Size: 3996
+MD5sum: 089e3368b4d9630ea2a392b373bb6d28
+SHA1: 4628f5703bed5b10f9df017bb21abbbab8659906
+SHA256: 64fbe7015862181fc765118c96e92d3cc94891412f82fa99faf28c3825e03f2c
+Section: free
+Priority: optional
+Description: Enable/disable device tree overlays, merge to overlays-xxx.dtb
 
 Package: set-emmc
 Version: 1.0.0
@@ -1116,6 +1159,20 @@ Section: free
 Priority: optional
 Description: Configuration lcd
 
+Package: set-lcd
+Version: 1.6.3
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 3132
+Filename: pool/main/set-lcd_1.6.3_all.deb
+Size: 532980
+MD5sum: f9482694b16ea62de37b30e371ffa72c
+SHA1: 6f8ef711ac97d9689ce9eddf582fdc5148414273
+SHA256: f25388f6678acc3ffa4ee1a300cf179c99005438c37d1ace8246675dc26ae171
+Section: free
+Priority: optional
+Description: Configuration lcd
+
 Package: set-nvme
 Version: 0.0.1
 Architecture: all
@@ -1186,16 +1243,44 @@ Section: free
 Priority: optional
 Description: set xorg use fbdev
 
+Package: walnutpi.imgxfer
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 284
+Filename: pool/main/walnutpi.imgxfer_1.0.0_all.deb
+Size: 45754
+MD5sum: 7848fae1bdea1b46c0b86b84da34e597
+SHA1: bbd82fe0db33de6953254b755ecfd68c70ece010
+SHA256: 49491565650ad0ac2b3fe07f3385b8531196c84108667b7f357a1842608161c2
+Section: free
+Priority: optional
+Description: a python lib of the front-end interface for sending images to usb
+
+Package: walnutpi.imu
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 252
+Filename: pool/main/walnutpi.imu_1.0.0_all.deb
+Size: 19678
+MD5sum: 1934882e92e0e7553e8509ec3b0478a8
+SHA1: 0e336a7b5096728e9785646514812eba18539512
+SHA256: be49f2b3c85e0faa44093bda61d51af9e5be0e2ead1ca7c8c2f668881798c82e
+Section: free
+Priority: optional
+Description: walnutpi.imu
+
 Package: walnutpi.kpu
 Version: 1.0.0
 Architecture: all
 Maintainer: sc-bin <3335447573@qq.com>
-Installed-Size: 12112
+Installed-Size: 66592
 Filename: pool/main/walnutpi.kpu_1.0.0_all.deb
-Size: 5383748
-MD5sum: fbb5dfe3f7fe484603fd4985ecca6d70
-SHA1: bc3f73d7bb183d10ffcd7e5192d3664b9e19556e
-SHA256: f21e393d2d0ecd5e2f13ebc6ef99a9180d09180de7f8eb4ade6b2aa2d8be8a5c
+Size: 30612044
+MD5sum: 0635882534dcaa934011d088f18de399
+SHA1: c2e99702146e7731909c07b2fd07386ac1e72890
+SHA256: be34208607f2796b39ff10671bb3377bc3886855e3da6c0e8f5ff4acfdc858d3
 Section: free
 Priority: optional
 Description: a python lib to control k230 kpu
@@ -1210,6 +1295,20 @@ Size: 18100
 MD5sum: d9f440a431ecc52c4d932b2af7da9286
 SHA1: c7d0850f88b9a0627c0c0075995c96e18f779665
 SHA256: 66a7f8833099ad68328d9841288556a0b5869b741639f2fecb0101ed2acf2611
+Section: free
+Priority: optional
+Description: a python lib to import all lib about walnutpi
+
+Package: walnutpi.lib
+Version: 1.2.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 228
+Filename: pool/main/walnutpi.lib_1.2.1_all.deb
+Size: 18206
+MD5sum: 0b0b56803f21ff29dd7bf360030c6fdd
+SHA1: d6fe87020c9eaf541de8e2d7747dc2b940edc3cd
+SHA256: ffb8c6eeb755a9e1cbf43025d0f0556b010c0da332f107117018258e7c8aeda9
 Section: free
 Priority: optional
 Description: a python lib to import all lib about walnutpi
@@ -1507,6 +1606,21 @@ Size: 9106
 MD5sum: 78f9c1f92fc12c6b2649a1fa5987371a
 SHA1: 0ddeca304e6f8ad41e4307fdf038fe7426de206c
 SHA256: bce35751df6c1028cc6c879c79e27e65865e5d1a1fc6f7a33f4c0c9b56f99bfa
+Section: free
+Priority: optional
+Description: the welcome info
+
+Package: wpi-welcome-info
+Version: 1.2.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 80
+Depends: toilet
+Filename: pool/main/wpi-welcome-info_1.2.0_all.deb
+Size: 10544
+MD5sum: 3573e435c298c67d881e3400c89dbb34
+SHA1: 53812d0d78a265943f88fa3b10facd7857255780
+SHA256: 3b50a379d43fb406bc622e27ac9b6e9da13c1e0a5d086cd398397214efe73bf6
 Section: free
 Priority: optional
 Description: the welcome info

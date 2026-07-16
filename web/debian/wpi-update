@@ -146,8 +146,19 @@ if [[ $COMMAND != "no_update" ]]; then
     if [ -f $THIS_SCRIPT_SAVE ]; then
         rm $THIS_SCRIPT_SAVE
     fi
-    run_status "get updates ..."  wget -c $THIS_SCRIPT_URL -O $THIS_SCRIPT_SAVE
-    run_status "unzip the file" tar -xvf $THIS_SCRIPT_SAVE -C /tmp
+    run_as_silent wget -c $THIS_SCRIPT_URL -O $THIS_SCRIPT_SAVE
+    if [ $? -ne 0 ]; then
+        echo_red "get updates ... [error]"
+        wget -c $THIS_SCRIPT_URL -O $THIS_SCRIPT_SAVE
+        exit 1
+    fi
+
+    run_as_silent tar -xvf $THIS_SCRIPT_SAVE -C /tmp
+    if [ $? -ne 0 ]; then
+        echo_red "unzip the file ... [error]"
+        tar -xvf $THIS_SCRIPT_SAVE -C /tmp
+        exit 1
+    fi
     NEW_SCRIPT_VERSION=$(grep -o 'THIS_SCRIPT_VERSION=[0-9.]*' $THIS_SCRIPT_FILE | cut -d '=' -f 2)
 
     if [[ "$NEW_SCRIPT_VERSION" > "$THIS_SCRIPT_VERSION" ]]; then
@@ -169,6 +180,36 @@ case $COMMAND in
         run_as_silent  wget -c $LOG_URL -O $FILE_LOG_SAVE
         NEW_VERSION=$(grep -o '\[[^]]*\] - [^ ]*' $FILE_LOG_SAVE | head -n 1 | awk '{print $3}')
         echo "$NEW_VERSION "
+        exit 0
+        ;;
+    -l)
+        run_as_silent wget -c $LOG_URL -O $FILE_LOG_SAVE
+        if [ $? -ne 0 ]; then
+            echo_red "download the release log .... [error]"
+            wget -c $LOG_URL -O $FILE_LOG_SAVE
+            exit 1
+        fi
+        NEW_VERSION=$(grep -o '\[[^]]*\] - [^ ]*' $FILE_LOG_SAVE | head -n 1 | awk '{print $3}')
+        if [[ -f $RELEASE_FILE ]]; then
+            BOARD_DATE=$(grep '^date=' $RELEASE_FILE | cut -d '=' -f 2)
+            BOARD_DATE_SECONDS=$(date -d"$BOARD_DATE" +%s)
+        else
+            BOARD_DATE_SECONDS=0
+        fi
+        DATE_LAST=""
+        DATES_IN_LOG=$(grep -o '\[[^]]*\]' $FILE_LOG_SAVE | tr -d '[]')
+        for DATE in $DATES_IN_LOG; do
+            DATE_SECONDS=$(date -d"$DATE" +%s)
+            if (( DATE_SECONDS <= BOARD_DATE_SECONDS )); then
+                DATE_LAST=$DATE
+                break
+            fi
+        done
+        if [ -n "$DATE_LAST" ]; then
+            sed -n "1,/\\[$DATE_LAST\\]/p" $FILE_LOG_SAVE | sed '/\['$DATE_LAST'\]/d'
+        else
+            cat $FILE_LOG_SAVE
+        fi
         exit 0
         ;;
     install)
