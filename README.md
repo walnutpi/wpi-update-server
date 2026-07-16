@@ -1,6 +1,9 @@
 # wpi-update-server
 用于wpi-update使用的服务端
 
+由于github对文件大小有限制，导致部分deb包文件无法上传，所以本项目不再存放deb包文件本体
+
+
 # 项目使用方式
 ## 1. 配置nginx
 安装nginx
