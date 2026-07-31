@@ -13,6 +13,21 @@ Section: free
 Priority: optional
 Description: control the gpio with python
 
+Package: blinka
+Version: 0.3.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 6196
+Depends: make, gcc
+Filename: pool/main/blinka_0.3.1_all.deb
+Size: 2870324
+MD5sum: 4d3155e0aa2fa9fb70e2bf68bbf15b16
+SHA1: 4592534c5d1293e1d8b1f13ae6fd0cbebeb91252
+SHA256: ee77c92a5a14835f45ba15695bb694d6b924db36995b9a433a5ab26a6f8b2c54
+Section: free
+Priority: optional
+Description: control the gpio with python
+
 Package: conf-google-pinyin
 Version: 1.0.0
 Architecture: all
@@ -114,6 +129,20 @@ Section: free
 Priority: optional
 Description: conf audio
 
+Package: conf-t527-audio
+Version: 1.1.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 36
+Filename: pool/main/conf-t527-audio_1.1.0_all.deb
+Size: 1414
+MD5sum: f59bf8015ce9ed7fb5adec6e7cbc973a
+SHA1: ec66e9c84d0703f340049d12d7455893fa9c1420
+SHA256: 46110859ac3462fa28444452be7e822127b4ba89672e59e6c3d3e5c28dc10750
+Section: free
+Priority: optional
+Description: conf audio
+
 Package: conf-thonny
 Version: 1.0.0
 Architecture: all
@@ -186,6 +215,20 @@ Section: free
 Priority: optional
 Description: cybercam apps
 
+Package: cybercam-apps
+Version: 1.1.0
+Architecture: all
+Maintainer: 01studio
+Installed-Size: 91588
+Filename: pool/main/cybercam-apps_1.1.0_all.deb
+Size: 36512770
+MD5sum: 7dcef2e247796ab0c876a29b1971ecc6
+SHA1: 98bc1f976d26ea1856ddc697e8732591db255d27
+SHA256: 461d5cead89ebf593227f7dd48ab830502a4d47754741d233b44284fef359207
+Section: free
+Priority: optional
+Description: cybercam apps
+
 Package: cybercam-desktop
 Version: 1.0.0
 Architecture: all
@@ -196,6 +239,20 @@ Size: 6694376
 MD5sum: a56ead6f576bd3171f90bd996a015e1f
 SHA1: 911180ff0dfd7d5dabcf9a9428bf4ba146e45234
 SHA256: 03d972e7fd65811a67f90895d459a6a34dc8ea516258804776eedc97edcdb6cc
+Section: free
+Priority: optional
+Description: k230 cybercam ui
+
+Package: cybercam-desktop
+Version: 1.1.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 13760
+Filename: pool/main/cybercam-desktop_1.1.0_all.deb
+Size: 6695688
+MD5sum: 5e47c7967ef170a2fb35eff248f41b13
+SHA1: caded65140dfa2d726ef195e06ce0064daa211f0
+SHA256: 3403cf0621617c63e659f6928ccfa958a8c9f86ec03e3102c9792fbecdf1585a
 Section: free
 Priority: optional
 Description: k230 cybercam ui
@@ -239,6 +296,21 @@ Size: 18773404
 MD5sum: b497c03132bd2b1da22148a5c6da6cdd
 SHA1: cd492066206c128f21be2012e97524c45cb849b4
 SHA256: d81259a70dbf20e8a2339a8b8e0efbad2da2466a04a9b30e169c8c6010ccc486
+Section: free
+Priority: optional
+Description: USB CDC ACM serial communication worker for CyberCam
+
+Package: cybercam-usb-worker
+Version: 1.1.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 79592
+Depends: netplan.io
+Filename: pool/main/cybercam-usb-worker_1.1.0_all.deb
+Size: 18781338
+MD5sum: c6ac4f3bf974427500b23e43fc144eab
+SHA1: 6be3718592143b5e0e5d3f4917c8e5f20595f11f
+SHA256: b3467b9e57d157c339265bc5aceae6a6917b64d1150508b7ab81c15225549558
 Section: free
 Priority: optional
 Description: USB CDC ACM serial communication worker for CyberCam
@@ -416,6 +488,48 @@ Section: free
 Priority: optional
 Description: k230-ffmpeg
 
+Package: kernel-dtb-CyberCAM-linux-6.6.36
+Version: 1.853.0
+Architecture: all
+Maintainer: walnutpi-build
+Installed-Size: 276
+Filename: pool/main/kernel-dtb-CyberCAM-linux-6.6.36_1.853.0_riscv.deb
+Size: 33138
+MD5sum: 057babd44d5a9158a59350f73a202537
+SHA1: 086456282bf1536a4ec20307aade542173ce8ef2
+SHA256: 77b1efe0ee4727a474dafa313553fb9def0192750277a86b6186717764c15c84
+Section: free
+Priority: optional
+Description: linux kernel dtb files
+
+Package: kernel-image-CyberCAM-linux-6.6.36
+Version: 1.853.0
+Architecture: all
+Maintainer: walnutpi-build
+Installed-Size: 19136
+Filename: pool/main/kernel-image-CyberCAM-linux-6.6.36_1.853.0_riscv.deb
+Size: 10113406
+MD5sum: 0f011083092549c6b85db7fded5defce
+SHA1: 8b9034479472adbd346297de8248735cb9dfd587
+SHA256: a6df3b9ca59940ce5a21de20cb67a7d8bc5597aa701d3556f585cbe8cbb275f2
+Section: free
+Priority: optional
+Description: linux kernel image file
+
+Package: kernel-modules-CyberCAM-linux-6.6.36
+Version: 1.853.0
+Architecture: all
+Maintainer: walnutpi-build
+Installed-Size: 21020
+Filename: pool/main/kernel-modules-CyberCAM-linux-6.6.36_1.853.0_riscv.deb
+Size: 5705796
+MD5sum: 842a6cf5f7c5a932b7b98b8197daf366
+SHA1: c1b2d5042801955c86a6e9f4a2bcb1f3c80b4942
+SHA256: d1073ffc75e487d9787a8d3406784b1f5153f9a90475eba132a5a53dbb17a7ce
+Section: free
+Priority: optional
+Description: linux kernel modules
+
 Package: map-device
 Version: 0.0.1
 Architecture: all
@@ -443,6 +557,20 @@ SHA256: 210b4bfa6a7296662ae6e3b57d842818032a424cfd9550e8fda7d6ac138de5af
 Section: free
 Priority: optional
 Description: Precompiled files of
+
+Package: patch-cybercam
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 4
+Filename: pool/main/patch-cybercam_1.0.0_all.deb
+Size: 830
+MD5sum: 33e3c4068ba925253eb39248f21b584c
+SHA1: bf2cde2c824b81bc2fcb8a4b23ea7517b23f8017
+SHA256: b29f0c36b397f3bda9e2f4c0d298d32d87bf2bbbee4b8de80e031fdc01a56c06
+Section: free
+Priority: optional
+Description: the patch when update the os system
 
 Package: patch-w2b
 Version: 1.0.0
@@ -734,6 +862,34 @@ Size: 3160158
 MD5sum: 1fa49c1a0146b530df1f0748d9f94382
 SHA1: decd675dae63b6bf955f63e4cedcdcf29346d7c0
 SHA256: 62065971f1913ddb4fbe3810ae865f6f62e38ed2ccade3a55628ac745eb7abb7
+Section: free
+Priority: optional
+Description: service, enable isp_media_server
+
+Package: service-k230-isp-media
+Version: 1.1.1
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 6704
+Filename: pool/main/service-k230-isp-media_1.1.1_all.deb
+Size: 1865540
+MD5sum: 20ced5610b73bc7ef6eaa97af3f09cd4
+SHA1: 9e49b0d7be3d59c2cabd828662f66fd79180e6cd
+SHA256: d3f81e6136a37fdb6f2c73fad7b7dfc211174af0a01f57bee6c699873ede3a02
+Section: free
+Priority: optional
+Description: service, enable isp_media_server
+
+Package: service-k230-isp-media
+Version: 1.2.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 9396
+Filename: pool/main/service-k230-isp-media_1.2.0_all.deb
+Size: 2470490
+MD5sum: c150a168e47aa4c61406b20b4705ca4e
+SHA1: 4b02eb8f2dbf966de9bd88faac7ffc523cf3527a
+SHA256: 45dc85f500636809ceed2c0c5cec19b9419f02b19b9e6a118aae714be6ace3fb
 Section: free
 Priority: optional
 Description: service, enable isp_media_server
@@ -1281,6 +1437,20 @@ Size: 30612044
 MD5sum: 0635882534dcaa934011d088f18de399
 SHA1: c2e99702146e7731909c07b2fd07386ac1e72890
 SHA256: be34208607f2796b39ff10671bb3377bc3886855e3da6c0e8f5ff4acfdc858d3
+Section: free
+Priority: optional
+Description: a python lib to control k230 kpu
+
+Package: walnutpi.kpu
+Version: 1.1.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 81612
+Filename: pool/main/walnutpi.kpu_1.1.0_all.deb
+Size: 43210106
+MD5sum: 7a44653693dddf145f37b47f0c5f3a23
+SHA1: 7b7a78aa1b44ad4c7467a9617c0370c7085313a9
+SHA256: 0540731336acb46bd80f5eacc3b3a96a34a6d40763a709bd0c631918b8c9ca76
 Section: free
 Priority: optional
 Description: a python lib to control k230 kpu

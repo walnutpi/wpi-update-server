@@ -1,2 +1,8 @@
+[2026-7-31] - 1.1.0
+    - New: app: mask detection, license plate recognition
+    - Fix: sensor library image acquisition delay issue
+    - Fix: occasional startup error with extended camera
+    - Fix: mic gain setting not working
+    
 [2026-7-15] - 1.0.0
     - The first version

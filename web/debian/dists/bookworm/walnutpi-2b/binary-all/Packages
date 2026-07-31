@@ -85,6 +85,20 @@ Section: free
 Priority: optional
 Description: conf audio
 
+Package: conf-t527-audio
+Version: 1.1.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 36
+Filename: pool/main/conf-t527-audio_1.1.0_all.deb
+Size: 1414
+MD5sum: f59bf8015ce9ed7fb5adec6e7cbc973a
+SHA1: ec66e9c84d0703f340049d12d7455893fa9c1420
+SHA256: 46110859ac3462fa28444452be7e822127b4ba89672e59e6c3d3e5c28dc10750
+Section: free
+Priority: optional
+Description: conf audio
+
 Package: conf-thonny
 Version: 1.0.0
 Architecture: all
