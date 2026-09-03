@@ -1,3 +1,13 @@
+[2026-9-3] - 1.2.0
+    - New: Camera APP, supports photo capture and video recording
+    - New: Gallery APP, supports viewing photos and videos
+    - Optimize: Improved GUI, significantly enhanced smoothness
+    - Optimize: Keep current page after APP exits
+    - Fix: VSCode plugin unable to upload large files
+    - Fix: Fixed sensor library image not centered
+    - Fix: Fixed I2C2 interface pin error
+
+
 [2026-7-31] - 1.1.0
     - New: app: mask detection, license plate recognition
     - Fix: sensor library image acquisition delay issue
