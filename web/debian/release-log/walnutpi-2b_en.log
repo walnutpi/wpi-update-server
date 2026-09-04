@@ -1,3 +1,8 @@
+[2026-09-04] - 1.8.0
+    - New : mic driver
+    - New : ADC driver
+    - New : RTC lithium battery (3V) charging function
+
 [2026-02-02] - 1.7.0
     - New : support a 10.1-inch 1280*800 mipi screen
     

@@ -201,6 +201,20 @@ Section: free
 Priority: optional
 Description: config.txt for boot
 
+Package: configtxt-WalnutPi-2b-main
+Version: 1.3
+Architecture: arm64
+Maintainer: walnutpi-build
+Installed-Size: 16
+Filename: pool/main/configtxt-WalnutPi-2b-main_1.3_arm64.deb
+Size: 2472
+MD5sum: 9edf5a7d18179ffbc41df03d1b59d4b8
+SHA1: 5c488ab74970f38d16475ee07d4d20bd82a74fe4
+SHA256: d8fe335b43ce6532c9ed61b0829db4dcba9e67ab9f885fe2123b7db4475d965c
+Section: free
+Priority: optional
+Description: config.txt for boot
+
 Package: cybercam-apps
 Version: 1.0.0
 Architecture: all
@@ -559,6 +573,20 @@ Section: free
 Priority: optional
 Description: linux kernel dtb files
 
+Package: kernel-dtb-WalnutPi-2b-5.15.147
+Version: 1.27.0
+Architecture: all
+Maintainer: walnutpi-build
+Installed-Size: 256
+Filename: pool/main/kernel-dtb-WalnutPi-2b-5.15.147_1.27.0_arm64.deb
+Size: 38902
+MD5sum: 7a767551cf0b40321ce567b7960f31cb
+SHA1: 93792d8819203d728cbb92e0fd979d7c8cd5525d
+SHA256: 139e1202fc0b6f9cc7cb63031ced6203cf523412e4e110903c8c9c5a536f7313
+Section: free
+Priority: optional
+Description: linux kernel dtb files
+
 Package: kernel-image-CyberCAM-linux-6.6.36
 Version: 1.853.0
 Architecture: all
@@ -583,6 +611,20 @@ Size: 10113446
 MD5sum: b40ae37d44ebe96780f2bc264f9919ea
 SHA1: 13e909326f78ec66acb503457d9eed4cbc46c1e4
 SHA256: 1e8381a184714953c7bb75680971f9cd706a47461ee4208bb4afde02f170c89c
+Section: free
+Priority: optional
+Description: linux kernel image file
+
+Package: kernel-image-WalnutPi-2b-5.15.147
+Version: 1.27.0
+Architecture: all
+Maintainer: walnutpi-build
+Installed-Size: 29296
+Filename: pool/main/kernel-image-WalnutPi-2b-5.15.147_1.27.0_arm64.deb
+Size: 12015390
+MD5sum: effe6217ff3d66ec07db8b508e8c83c8
+SHA1: b0e4b39136659be0c83e5c2d9937b7b4e536c778
+SHA256: d545276cd44b2df55a6e0541c89d4ce8dbce38253f350cc8bbca7a71fe985a18
 Section: free
 Priority: optional
 Description: linux kernel image file
@@ -1427,6 +1469,20 @@ SHA256: f1e9d23c8ffc5ee8ed0e68e471341781b79c252d70e6410898156aa3f93b898d
 Section: free
 Priority: optional
 Description: set-nvme command
+
+Package: set-rtc
+Version: 1.0.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 48
+Filename: pool/main/set-rtc_1.0.0_all.deb
+Size: 3110
+MD5sum: dcef81406a8b73f9cce3546e1b63936d
+SHA1: c6438eb5fd7275b30c64025e11ddd1076848b094
+SHA256: 3d98c0d76c54b763410310107bff0ba18abee0a5297c73d4c3efd0751f88729f
+Section: free
+Priority: optional
+Description: set-rtc
 
 Package: set-vnc
 Version: 1.0.0

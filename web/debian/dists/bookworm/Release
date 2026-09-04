@@ -1,56 +1,56 @@
 Architectures: all
 Codename: bookworm
 Components: main
-Date: Thu, 03 Sep 2026 03:17:55 +0000
+Date: Fri, 04 Sep 2026 03:21:39 +0000
 Description: walnut pi wpi-update
 Label: Walnut Pi
 Origin: Walnut Pi
 Suite: stable
 MD5Sum:
- 6d91ddb06c0dff47788fd1261f322fbb              176 Release
+ 30712a9c160bef03767ab170e164c60d              176 Release
  44b8930eb0f036839f4adee8e713f753            32789 cybercam/binary-all/Packages
  780aa1b3d5bdce07026b5003c56108eb            10505 cybercam/binary-arm64/Packages
- ecc15fdb518a628b79707470a6776017            56178 main/binary-all/Packages
+ d1bc756423568a88dbb5a3e6adcca3e7            57848 main/binary-all/Packages
  40b4622911b3da5a76e557dc215d5efe            23486 main/binary-arm64/Packages
  cddd59ed07f0b42ef5db09ce1889a56a            45041 walnutpi-1b-emmc/binary-all/Packages
  31f355895f06bf3e2362714a03da0384             8696 walnutpi-1b-emmc/binary-arm64/Packages
  a5715aea26842664ce0c5c083900574e            21213 walnutpi-1b/binary-all/Packages
  31f355895f06bf3e2362714a03da0384             8696 walnutpi-1b/binary-arm64/Packages
- 331e5964a1537ea8f8864b55c2425ff6            21121 walnutpi-2b/binary-all/Packages
+ 479f3c1d50359bdfa2efa6b3de046ab7            23229 walnutpi-2b/binary-all/Packages
  780aa1b3d5bdce07026b5003c56108eb            10505 walnutpi-2b/binary-arm64/Packages
 SHA1:
- 454c9c8e6dc9487b3b9096544ac95b46ac08356f              176 Release
+ 51968b0ace901a3def1ba5b18a0f4f11593df51b              176 Release
  3f1fc7677f6cbd90df4490ee004b75e6a808b8b3            32789 cybercam/binary-all/Packages
  7ced5965c611a998aac79ce8226481e5d9182d6a            10505 cybercam/binary-arm64/Packages
- 2d5a409d221cc3539f390304fb8cefa7356278d9            56178 main/binary-all/Packages
+ 1d86649e854ccb2e95ef0f294bed6091217251e7            57848 main/binary-all/Packages
  9df209d610bece128cff14df52d72df7d48f35b5            23486 main/binary-arm64/Packages
  95a9a313646a196e7dcd03476eb343d79de97758            45041 walnutpi-1b-emmc/binary-all/Packages
  d9ff75b2ffaf2605edd042e5626a85ffd5367dfc             8696 walnutpi-1b-emmc/binary-arm64/Packages
  b90e64dd5906f946a7f9e6144641c0be51a00d66            21213 walnutpi-1b/binary-all/Packages
  d9ff75b2ffaf2605edd042e5626a85ffd5367dfc             8696 walnutpi-1b/binary-arm64/Packages
- 8c219e9850b6fd0314e341cfac122c46dea73a6f            21121 walnutpi-2b/binary-all/Packages
+ d9a4308fcaaf26852019ce55954bebd2d8770b1d            23229 walnutpi-2b/binary-all/Packages
  7ced5965c611a998aac79ce8226481e5d9182d6a            10505 walnutpi-2b/binary-arm64/Packages
 SHA256:
- 3f4750856479662d5ca459c36ea6deca1435aceb463c24763a2ff30af11d115e              176 Release
+ 0eaa0c6cd46809895fe85ca6a4777a04507b491db316dd5cfe35306dd6ec1703              176 Release
  374e630575d9a0810af2980f191e1c3288a117f182095b4f71fa4e5c7751291d            32789 cybercam/binary-all/Packages
  412f5d72fa6e586e002cf6950c68c85dee603b8b156241908a5a548a2b7e176a            10505 cybercam/binary-arm64/Packages
- c994468fe4032d1698a45f0239be288c27e7c019d1b1c9420870647aeee540c6            56178 main/binary-all/Packages
+ c69461ce224b5b881a64d1df85c7cd42322d3c2c94ceb1079f61ff33ef83aea3            57848 main/binary-all/Packages
  8ff3d4891c2ab52683b555f6af7a919dac0702b218d3316ff89c76e854152192            23486 main/binary-arm64/Packages
  8c01c49182ef85dea79d7830472b5953ff7813f00e9ed7bbb97689988ac04cb4            45041 walnutpi-1b-emmc/binary-all/Packages
  507a33142d328fca424ec3a4945c9a878b44706d934ff873b50478551261be82             8696 walnutpi-1b-emmc/binary-arm64/Packages
  d0d16dff471c794fb45ae6b67cab1ab52fda20acfa6a140bff05c82461981433            21213 walnutpi-1b/binary-all/Packages
  507a33142d328fca424ec3a4945c9a878b44706d934ff873b50478551261be82             8696 walnutpi-1b/binary-arm64/Packages
- 5d2da651c4af7dd67d0db32aa955d708e1485ac0c73375e77fb03a6eccd1f1f7            21121 walnutpi-2b/binary-all/Packages
+ 9bafd6b57b21f1c1d52133bc178db2790ebb8a5e339d02f30a0aa270c17d0af0            23229 walnutpi-2b/binary-all/Packages
  412f5d72fa6e586e002cf6950c68c85dee603b8b156241908a5a548a2b7e176a            10505 walnutpi-2b/binary-arm64/Packages
 SHA512:
- 93a44aff80a75a3b91199cca484cd085ac6c2889281e62d6353201b42b34eb8190b57ea31fb3e6ddf659b48ffa0dd2f2f0bee8ac4032c65d11c3564c1b56d7da              176 Release
+ 1421c298ca748082b2b46d6528c11aa377a74bd41c7e17ec891009d40da5208c3b774c23443370cc60f54df6658df5a9c0ef6559e227d0a4656eb6c793fa1e98              176 Release
  2c2e795213bed81d2463c45392ddeb3848604b4a8710dc3c3aebe0d8d878f4d42c6d2aa6f180b0890f740963ab393970bd360eec682d0e5835b269f682c205bb            32789 cybercam/binary-all/Packages
  d5741e0531b1055ea678ecdb4874782027199af1486f1fcb7bf14d980a19ab19336a39c077a6d48be20098c10cfeca21832f0c144aaaf5707ac5834e465ea402            10505 cybercam/binary-arm64/Packages
- efbdde01b818ab09c9c1cc5ebd61080efdc09b456123db52fdb3729f718b59419b3c3e81198985b3eed5f0b5b6b0a98087505e56ab1978f18e0153c6ea83051c            56178 main/binary-all/Packages
+ b2c1c11bcb9107fbe65067dc56cc0b022dcf3772f25bac44c9849a7ba900f82a628693e4ad3fe6ec9808fbfcc0a205e54478491023dcce067a4e46fe7d5919c3            57848 main/binary-all/Packages
  5ec68386689bcc7b6cb8a19dc4c1cd5f002225e663314e3046db2b65aba86068c436881105eda90fb9b1a0419dc8e8371df41ac40d9256a3f1e60bc3fe86954c            23486 main/binary-arm64/Packages
  638d371bddf67054997dba7588976347269b89002a16e13361996316c1e55c57ae174cf80935ab824c88a5ff6562443529e983c8f892a0c95223a4188ae68f78            45041 walnutpi-1b-emmc/binary-all/Packages
  05dae450913eeedd0fc8237302e9bc901028b6870ad7b68630f96c67559131fc3cddf62363be89eb2ba9c6334b83456d72975dcd5686b4b3c31cdfbd17152827             8696 walnutpi-1b-emmc/binary-arm64/Packages
  20c03dffe2cda59a4ea8ce1023ad9b8c9286a0a9d7b307206c95cbda9e8b683a217b50561bc0cd4e9975d05e36cf31d565ef4528fdea1c712d645cc9cb934a62            21213 walnutpi-1b/binary-all/Packages
  05dae450913eeedd0fc8237302e9bc901028b6870ad7b68630f96c67559131fc3cddf62363be89eb2ba9c6334b83456d72975dcd5686b4b3c31cdfbd17152827             8696 walnutpi-1b/binary-arm64/Packages
- b90ef93d4697fef69ae5f9eac356ed776546592f303d1ccc7b302553484bf964414d3e09fcd2d657e4ebb3c0e5821ce63c580b9f81df1a02300a3c27af94c90c            21121 walnutpi-2b/binary-all/Packages
+ ee73a77055fa8d523b4387170ab8a3b3c37b32b8670afabd2eb70b19c9dffe8fb7a10c09f891e166c38441c6747a82be3b2d103e264eddb3df291231215b56ac            23229 walnutpi-2b/binary-all/Packages
  d5741e0531b1055ea678ecdb4874782027199af1486f1fcb7bf14d980a19ab19336a39c077a6d48be20098c10cfeca21832f0c144aaaf5707ac5834e465ea402            10505 walnutpi-2b/binary-arm64/Packages
