@@ -214,6 +214,20 @@ Section: free
 Priority: optional
 Description: k230 cybercam ui
 
+Package: cybercam-desktop
+Version: 1.3.0
+Architecture: all
+Maintainer: sc-bin <3335447573@qq.com>
+Installed-Size: 123124
+Filename: pool/main/cybercam-desktop_1.3.0_all.deb
+Size: 36044162
+MD5sum: 2b72225b7736e9cf8c3ef0e94cd57286
+SHA1: ead6d0f4462a135e0611e96bea3c3b9bf5ac07ad
+SHA256: 072116e1aea9b045e4175c8581234e6d18625a554f0fe8b3f0621bf1d275c434
+Section: free
+Priority: optional
+Description: k230 cybercam ui
+
 Package: cybercam-map-device
 Version: 0.0.1
 Architecture: all
